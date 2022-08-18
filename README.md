@@ -3,7 +3,7 @@ Pepecoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/pepecoin-project/pepecoin.svg?branch=master)](https://travis-ci.org/pepecoin-project/pepecoin)
 
-https://pepecoin.org
+https://pepecoin.army
 
 What is Pepecoin?
 ----------------
