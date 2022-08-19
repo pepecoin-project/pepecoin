@@ -3,7 +3,7 @@ Pepecoin integration/staging tree
 
 http://www.pepecoin.army
 
-Copyright (c) 2009-2014 Bitcoin Developers
+Copyright (c) 2009-2022 Bitcoin Developers
 Copyright (c) 2022-2022 Pepecoin Developers
 
 What is Pepecoin?
