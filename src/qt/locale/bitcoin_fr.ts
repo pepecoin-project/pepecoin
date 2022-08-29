@@ -1,2938 +1,4097 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Pepecoin</source>
-        <translation>À propos de Pepecoin</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;Pepecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Pepecoin&lt;/b&gt; version</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
- Ce logiciel est en phase expérimentale.
-
- Distribué sous licence MIT/X11, voir le fichier COPYING ou http://www.opensource.org/licenses/mit-license.php.
-
- Ce produit comprend des fonctionnalités développées par le projet OpenSSL pour être utilisés dans la boîte à outils OpenSSL (http://www.openssl.org/), un logiciel cryptographique écrit par Eric Young (eay@cryptsoft.com), et des fonctionnalités développées pour le logiciel UPnP écrit par Thomas Bernard.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>Droit d&apos;auteur</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The Pepecoin developers</source>
-        <translation>Les développeurs Pepecoin</translation>
-    </message>
-</context>
+<TS language="fr" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Carnet d&apos;adresses</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>Right-click to edit address or label</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Double cliquez afin de modifier l&apos;adresse ou l&apos;étiquette</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
-        <translation>Créer une nouvelle adresse</translation>
+        <translation>Create a new address</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <source>&amp;New</source>
+        <translation>&amp;New</translation>
+    </message>
+    <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copier l&apos;adresse sélectionnée dans le presse-papiers</translation>
+        <translation>Copy the currently selected address to the system clipboard</translation>
     </message>
     <message>
-        <location line="-11"/>
-        <source>&amp;New Address</source>
-        <translation>&amp;Nouvelle adresse</translation>
+        <source>&amp;Copy</source>
+        <translation>&amp;Copy</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Pepecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Voici vos adresses Pepecoin qui vous permettent de recevoir des paiements. Vous pouvez donner une adresse différente à chaque expéditeur afin de savoir qui vous paye.</translation>
+        <source>C&amp;lose</source>
+        <translation>C&amp;lose</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Copier l&apos;adresse</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Afficher le &amp;QR Code</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Sign a message to prove you own a Pepecoin address</source>
-        <translation>Signer un message pour prouver que vous détenez une adresse Pepecoin</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>Signer un &amp;message</translation>
-    </message>
-    <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>Effacer l&apos;adresse actuellement sélectionnée de la liste</translation>
+        <translation>Delete the currently selected address from the list</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <source>Enter address or label to search</source>
+        <translation>Enter address or label to search</translation>
+    </message>
+    <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exporter les données de l&apos;onglet courant vers un fichier</translation>
+        <translation>Export the data in the current tab to a file</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
-        <translation>&amp;Exporter</translation>
+        <translation>&amp;Export</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Pepecoin address</source>
-        <translation>Vérifier un message pour vous assurer qu&apos;il a bien été signé avec l&apos;adresse Pepecoin spécifiée</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Vérifier un message</translation>
-    </message>
-    <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Supprimer</translation>
+        <translation>&amp;Delete</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Pepecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ce sont vos adresses Pepecoin pour émettre des paiements. Vérifiez toujours le montant et l&apos;adresse du destinataire avant d&apos;envoyer des pièces.</translation>
+        <source>Choose the address to send coins to</source>
+        <translation>Choose the address to send coins to</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <source>Choose the address to receive coins with</source>
+        <translation>Choose the address to receive coins with</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>C&amp;hoose</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Sending addresses</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Receiving addresses</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+Signing is only possible with addresses of the type 'legacy'.</source>
+        <translation>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+Signing is only possible with addresses of the type 'legacy'.</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Copy Address</translation>
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
-        <translation>Copier l&apos;é&amp;tiquette</translation>
+        <translation>Copy &amp;Label</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Éditer</translation>
+        <translation>&amp;Edit</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send &amp;Coins</source>
-        <translation>Envoyer des &amp;Pepecoins</translation>
+        <source>Export Address List</source>
+        <translation>Export Address List</translation>
     </message>
     <message>
-        <location line="+260"/>
-        <source>Export Address Book Data</source>
-        <translation>Exporter les données du carnet d&apos;adresses</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Valeurs séparées par des virgules (*.csv)</translation>
+        <translation>Comma separated file (*.csv)</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>Erreur lors de l&apos;exportation</translation>
+        <source>Exporting Failed</source>
+        <translation>Exporting Failed</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Impossible d&apos;écrire dans le fichier %1.</translation>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>There was an error trying to save the address list to %1. Please try again.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
-        <translation>Étiquette</translation>
+        <translation>Label</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
-        <translation>Adresse</translation>
+        <translation>Address</translation>
     </message>
     <message>
-        <location line="+36"/>
         <source>(no label)</source>
-        <translation>(aucune étiquette)</translation>
+        <translation>(no label)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation>Dialogue de phrase de passe</translation>
+        <translation>Passphrase Dialog</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Entrez la phrase de passe</translation>
+        <translation>Enter passphrase</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Nouvelle phrase de passe</translation>
+        <translation>New passphrase</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Répétez la phrase de passe</translation>
+        <translation>Repeat new passphrase</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+33"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Entrez une nouvelle phrase de passe pour le porte-monnaie.&lt;br/&gt;Veuillez utiliser une phrase composée de &lt;b&gt;10 caractères aléatoires ou plus&lt;/b&gt;, ou bien de &lt;b&gt;huit mots ou plus&lt;/b&gt;.</translation>
+        <source>Show passphrase</source>
+        <translation>Show passphrase</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>Chiffrer le porte-monnaie</translation>
+        <translation>Encrypt wallet</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Cette opération nécessite votre phrase de passe pour déverrouiller le porte-monnaie.</translation>
+        <translation>This operation needs your wallet passphrase to unlock the wallet.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Déverrouiller le porte-monnaie</translation>
+        <translation>Unlock wallet</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Cette opération nécessite votre phrase de passe pour décrypter le porte-monnaie.</translation>
+        <translation>This operation needs your wallet passphrase to decrypt the wallet.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Déchiffrer le porte-monnaie</translation>
+        <translation>Decrypt wallet</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Changer la phrase de passe</translation>
+        <translation>Change passphrase</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Entrez l’ancienne phrase de passe pour le porte-monnaie ainsi que la nouvelle.</translation>
-    </message>
-    <message>
-        <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Confirmer le chiffrement du porte-monnaie</translation>
+        <translation>Confirm wallet encryption</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PEPECOINS&lt;/b&gt;!</source>
-        <translation>Attention : Si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ ACCÈS À TOUS VOS PEPECOINS&lt;/b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Êtes-vous sûr de vouloir chiffrer votre porte-monnaie ?</translation>
+        <translation>Are you sure you wish to encrypt your wallet?</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>IMPORTANT : Les sauvegardes précédentes de votre fichier de porte-monnaie devraient être remplacées par le nouveau fichier crypté de porte-monnaie. Pour des raisons de sécurité, les précédentes sauvegardes de votre fichier de porte-monnaie non chiffré deviendront inutilisables dès que vous commencerez à utiliser le nouveau porte-monnaie chiffré.</translation>
-    </message>
-    <message>
-        <location line="+100"/>
-        <location line="+24"/>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Attention : la touche Verr. Maj. est activée !</translation>
-    </message>
-    <message>
-        <location line="-130"/>
-        <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>Porte-monnaie chiffré</translation>
+        <translation>Wallet encrypted</translation>
     </message>
     <message>
-        <location line="-56"/>
-        <source>Pepecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pepecoins from being stolen by malware infecting your computer.</source>
-        <translation>Pepecoin va à présent se fermer pour terminer la procédure de cryptage. N&apos;oubliez pas que le chiffrement de votre porte-monnaie ne peut pas fournir une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <location line="+7"/>
-        <location line="+42"/>
-        <location line="+6"/>
+        <source>Enter the old passphrase and new passphrase for the wallet.</source>
+        <translation>Enter the old passphrase and new passphrase for the wallet.</translation>
+    </message>
+    <message>
+        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</translation>
+    </message>
+    <message>
+        <source>Wallet to be encrypted</source>
+        <translation>Wallet to be encrypted</translation>
+    </message>
+    <message>
+        <source>Your wallet is about to be encrypted. </source>
+        <translation>Your wallet is about to be encrypted. </translation>
+    </message>
+    <message>
+        <source>Your wallet is now encrypted. </source>
+        <translation>Your wallet is now encrypted. </translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</translation>
+    </message>
+    <message>
         <source>Wallet encryption failed</source>
-        <translation>Le chiffrement du porte-monnaie a échoué</translation>
+        <translation>Wallet encryption failed</translation>
     </message>
     <message>
-        <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Le chiffrement du porte-monnaie a échoué en raison d&apos;une erreur interne. Votre porte-monnaie n&apos;a pas été chiffré.</translation>
+        <translation>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>Les phrases de passe entrées ne correspondent pas.</translation>
+        <translation>The supplied passphrases do not match.</translation>
     </message>
     <message>
-        <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Le déverrouillage du porte-monnaie a échoué</translation>
+        <translation>Wallet unlock failed</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+11"/>
-        <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>La phrase de passe entrée pour décrypter le porte-monnaie était incorrecte.</translation>
+        <translation>The passphrase entered for the wallet decryption was incorrect.</translation>
     </message>
     <message>
-        <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>Le déchiffrage du porte-monnaie a échoué</translation>
+        <translation>Wallet decryption failed</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>La phrase de passe du porte-monnaie a été modifiée avec succès.</translation>
+        <translation>Wallet passphrase was successfully changed.</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Warning: The Caps Lock key is on!</translation>
+    </message>
+</context>
+<context>
+    <name>BanTableModel</name>
+    <message>
+        <source>IP/Netmask</source>
+        <translation>IP/Netmask</translation>
+    </message>
+    <message>
+        <source>Banned Until</source>
+        <translation>Banned Until</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>Signer un &amp;message...</translation>
+        <translation>Sign &amp;message...</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>Synchronisation avec le réseau…</translation>
+        <translation>Synchronizing with network...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
-        <translation>&amp;Vue d&apos;ensemble</translation>
+        <translation>&amp;Overview</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation>Afficher une vue d’ensemble du porte-monnaie</translation>
+        <translation>Show general overview of wallet</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transactions</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>Parcourir l&apos;historique des transactions</translation>
+        <translation>Browse transaction history</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Éditer la liste des adresses et des étiquettes stockées</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Afficher la liste des adresses pour recevoir des paiements</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation>Q&amp;uitter</translation>
+        <translation>E&amp;xit</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
-        <translation>Quitter l’application</translation>
+        <translation>Quit application</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Show information about Pepecoin</source>
-        <translation>Afficher des informations à propos de Pepecoin</translation>
+        <source>&amp;About %1</source>
+        <translation>&amp;About %1</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Show information about %1</source>
+        <translation>Show information about %1</translation>
+    </message>
+    <message>
         <source>About &amp;Qt</source>
-        <translation>À propos de &amp;Qt</translation>
+        <translation>About &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>Afficher des informations sur Qt</translation>
+        <translation>Show information about Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>&amp;Options…</translation>
+        <translation>&amp;Options...</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>Modify configuration options for %1</source>
+        <translation>Modify configuration options for %1</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Chiffrer le porte-monnaie...</translation>
+        <translation>&amp;Encrypt Wallet...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Sauvegarder le porte-monnaie...</translation>
+        <translation>&amp;Backup Wallet...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Modifier la phrase de passe...</translation>
+        <translation>&amp;Change Passphrase...</translation>
     </message>
     <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation>Importation des blocs depuis le disque...</translation>
+        <source>Open &amp;URI...</source>
+        <translation>Open &amp;URI...</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Create Wallet...</source>
+        <translation>Create Wallet...</translation>
+    </message>
+    <message>
+        <source>Create a new wallet</source>
+        <translation>Create a new wallet</translation>
+    </message>
+    <message>
+        <source>Wallet:</source>
+        <translation>Wallet:</translation>
+    </message>
+    <message>
+        <source>Click to disable network activity.</source>
+        <translation>Click to disable network activity.</translation>
+    </message>
+    <message>
+        <source>Network activity disabled.</source>
+        <translation>Network activity disabled.</translation>
+    </message>
+    <message>
+        <source>Click to enable network activity again.</source>
+        <translation>Click to enable network activity again.</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>Syncing Headers (%1%)...</translation>
+    </message>
+    <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Réindexation des blocs sur le disque...</translation>
+        <translation>Reindexing blocks on disk...</translation>
     </message>
     <message>
-        <location line="-347"/>
-        <source>Send coins to a Pepecoin address</source>
-        <translation>Envoyer des pièces à une adresse Pepecoin</translation>
+        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
+        <translation>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <location line="+49"/>
-        <source>Modify configuration options for Pepecoin</source>
-        <translation>Modifier les options de configuration de Pepecoin</translation>
+        <source>Send coins to a Bitcoin address</source>
+        <translation>Send coins to a Bitcoin address</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Backup wallet to another location</source>
-        <translation>Sauvegarder le porte-monnaie à un autre emplacement</translation>
+        <translation>Backup wallet to another location</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Modifier la phrase de passe utilisée pour le chiffrement du porte-monnaie</translation>
+        <translation>Change the passphrase used for wallet encryption</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>&amp;Debug window</source>
-        <translation>Fenêtre de &amp;débogage</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open debugging and diagnostic console</source>
-        <translation>Ouvrir une console de débogage et de diagnostic</translation>
-    </message>
-    <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Vérifier un message...</translation>
+        <translation>&amp;Verify message...</translation>
     </message>
     <message>
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>Pepecoin</source>
-        <translation>Pepecoin</translation>
-    </message>
-    <message>
-        <location line="-530"/>
-        <source>Wallet</source>
-        <translation>Porte-monnaie</translation>
-    </message>
-    <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
-        <translation>&amp;Envoyer</translation>
+        <translation>&amp;Send</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation>&amp;Recevoir</translation>
+        <translation>&amp;Receive</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation>&amp;Adresses</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>&amp;About Pepecoin</source>
-        <translation>À &amp;propos de Pepecoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Afficher / Cacher</translation>
+        <translation>&amp;Show / Hide</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation>Afficher ou masquer la fenêtre principale</translation>
+        <translation>Show or hide the main Window</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Crypter les clefs privées de votre porte-monnaie</translation>
+        <translation>Encrypt the private keys that belong to your wallet</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Sign messages with your Pepecoin addresses to prove you own them</source>
-        <translation>Signer les messages avec vos adresses Pepecoin pour prouver que vous les détenez</translation>
+        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <translation>Sign messages with your Bitcoin addresses to prove you own them</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Pepecoin addresses</source>
-        <translation>Vérifier les messages pour vous assurer qu&apos;ils ont bien été signés avec les adresses Pepecoin spécifiées</translation>
+        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Bitcoin addresses</translation>
     </message>
     <message>
-        <location line="+28"/>
         <source>&amp;File</source>
-        <translation>&amp;Fichier</translation>
+        <translation>&amp;File</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
-        <translation>&amp;Réglages</translation>
+        <translation>&amp;Settings</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>&amp;Aide</translation>
+        <translation>&amp;Help</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation>Barre d&apos;outils des onglets</translation>
+        <translation>Tabs toolbar</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <location line="+10"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <translation>Request payments (generates QR codes and bitcoin: URIs)</translation>
     </message>
     <message>
-        <location line="+47"/>
-        <source>Pepecoin client</source>
-        <translation>Client Pepecoin</translation>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>Show the list of used sending addresses and labels</translation>
+    </message>
+    <message>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>Show the list of used receiving addresses and labels</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Command-line options</translation>
     </message>
     <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to Pepecoin network</source>
-        <translation><numerusform>%n connexion active avec le réseau Pepecoin</numerusform><numerusform>%n connexions actives avec le réseau Pepecoin</numerusform></translation>
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n active connection to Bitcoin network</numerusform><numerusform>%n active connections to Bitcoin network</numerusform></translation>
     </message>
     <message>
-        <location line="+22"/>
-        <source>No block source available...</source>
-        <translation>Aucune source de bloc disponible...</translation>
+        <source>Indexing blocks on disk...</source>
+        <translation>Indexing blocks on disk...</translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>%1 blocs sur %2 (estimés) de l&apos;historique des transactions traités.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation>%1 blocs de l&apos;historique des transactions traités.</translation>
+        <source>Processing blocks on disk...</source>
+        <translation>Processing blocks on disk...</translation>
     </message>
     <message numerus="yes">
-        <location line="+20"/>
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n heure</numerusform><numerusform>%n heures</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n day(s)</source>
-        <translation><numerusform>%n jour</numerusform><numerusform>%n jours</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n week(s)</source>
-        <translation><numerusform>%n semaine</numerusform><numerusform>%n semaines</numerusform></translation>
+        <source>Processed %n block(s) of transaction history.</source>
+        <translation><numerusform>Processed %n block of transaction history.</numerusform><numerusform>Processed %n blocks of transaction history.</numerusform></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>%1 behind</source>
-        <translation>%1 en arrière</translation>
+        <translation>%1 behind</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Le dernier bloc reçu avait été généré il y a %1.</translation>
+        <translation>Last received block was generated %1 ago.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Les transactions après cela ne seront pas encore visibles.</translation>
+        <translation>Transactions after this will not yet be visible.</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
-        <translation>Erreur</translation>
+        <translation>Error</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation>Avertissement</translation>
+        <translation>Warning</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
         <translation>Information</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Cette transaction dépasse la limite de taille. Vous pouvez quand même l&apos;envoyer en vous acquittant de frais d&apos;un montant de %1 qui iront aux nœuds qui traiteront la transaction et aideront à soutenir le réseau. Voulez-vous payer les frais ?</translation>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
-        <translation>À jour</translation>
+        <translation>Up to date</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <source>&amp;Load PSBT from file...</source>
+        <translation>&amp;Load PSBT from file...</translation>
+    </message>
+    <message>
+        <source>Load Partially Signed Bitcoin Transaction</source>
+        <translation>Load Partially Signed Bitcoin Transaction</translation>
+    </message>
+    <message>
+        <source>Load PSBT from clipboard...</source>
+        <translation>Load PSBT from clipboard...</translation>
+    </message>
+    <message>
+        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
+        <translation>Load Partially Signed Bitcoin Transaction from clipboard</translation>
+    </message>
+    <message>
+        <source>Node window</source>
+        <translation>Node window</translation>
+    </message>
+    <message>
+        <source>Open node debugging and diagnostic console</source>
+        <translation>Open node debugging and diagnostic console</translation>
+    </message>
+    <message>
+        <source>&amp;Sending addresses</source>
+        <translation>&amp;Sending addresses</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses</source>
+        <translation>&amp;Receiving addresses</translation>
+    </message>
+    <message>
+        <source>Open a bitcoin: URI</source>
+        <translation>Open a bitcoin: URI</translation>
+    </message>
+    <message>
+        <source>Open Wallet</source>
+        <translation>Open Wallet</translation>
+    </message>
+    <message>
+        <source>Open a wallet</source>
+        <translation>Open a wallet</translation>
+    </message>
+    <message>
+        <source>Close Wallet...</source>
+        <translation>Close Wallet...</translation>
+    </message>
+    <message>
+        <source>Close wallet</source>
+        <translation>Close wallet</translation>
+    </message>
+    <message>
+        <source>Close All Wallets...</source>
+        <translation>Close All Wallets...</translation>
+    </message>
+    <message>
+        <source>Close all wallets</source>
+        <translation>Close all wallets</translation>
+    </message>
+    <message>
+        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Show the %1 help message to get a list with possible Bitcoin command-line options</translation>
+    </message>
+    <message>
+        <source>&amp;Mask values</source>
+        <translation>&amp;Mask values</translation>
+    </message>
+    <message>
+        <source>Mask the values in the Overview tab</source>
+        <translation>Mask the values in the Overview tab</translation>
+    </message>
+    <message>
+        <source>default wallet</source>
+        <translation>default wallet</translation>
+    </message>
+    <message>
+        <source>No wallets available</source>
+        <translation>No wallets available</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Window</translation>
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation>Minimize</translation>
+    </message>
+    <message>
+        <source>Zoom</source>
+        <translation>Zoom</translation>
+    </message>
+    <message>
+        <source>Main Window</source>
+        <translation>Main Window</translation>
+    </message>
+    <message>
+        <source>%1 client</source>
+        <translation>%1 client</translation>
+    </message>
+    <message>
+        <source>Connecting to peers...</source>
+        <translation>Connecting to peers...</translation>
+    </message>
+    <message>
         <source>Catching up...</source>
-        <translation>Rattrapage…</translation>
+        <translation>Catching up...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation>Confirmer les frais de transaction</translation>
+        <source>Error: %1</source>
+        <translation>Error: %1</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Sent transaction</source>
-        <translation>Transaction envoyée</translation>
+        <source>Warning: %1</source>
+        <translation>Warning: %1</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Incoming transaction</source>
-        <translation>Transaction entrante</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
 </source>
-        <translation>Date : %1
-Montant : %2
-Type : %3
-Adresse : %4
+        <translation>Date: %1
 </translation>
     </message>
     <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>Gestion des URI</translation>
+        <source>Amount: %1
+</source>
+        <translation>Amount: %1
+</translation>
     </message>
     <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Pepecoin address or malformed URI parameters.</source>
-        <translation>L&apos;URI ne peut être analysé ! Cela peut être causé par une adresse Pepecoin invalide ou par des paramètres d&apos;URI malformés.</translation>
+        <source>Wallet: %1
+</source>
+        <translation>Wallet: %1
+</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <source>Type: %1
+</source>
+        <translation>Type: %1
+</translation>
+    </message>
+    <message>
+        <source>Label: %1
+</source>
+        <translation>Label: %1
+</translation>
+    </message>
+    <message>
+        <source>Address: %1
+</source>
+        <translation>Address: %1
+</translation>
+    </message>
+    <message>
+        <source>Sent transaction</source>
+        <translation>Sent transaction</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>Incoming transaction</translation>
+    </message>
+    <message>
+        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
+        <translation>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
+        <translation>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Private key &lt;b&gt;disabled&lt;/b&gt;</source>
+        <translation>Private key &lt;b&gt;disabled&lt;/b&gt;</translation>
+    </message>
+    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Le porte-monnaie est &lt;b&gt;chiffré&lt;/b&gt; et est actuellement &lt;b&gt;déverrouillé&lt;/b&gt;</translation>
+        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Le porte-monnaie est &lt;b&gt;chiffré&lt;/b&gt; et est actuellement &lt;b&gt;verrouillé&lt;/b&gt;</translation>
+        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Pepecoin can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale est survenue. Pepecoin ne peut plus continuer à fonctionner de façon sûre et va s&apos;arrêter.</translation>
+        <source>Original message:</source>
+        <translation>Original message:</translation>
+    </message>
+    <message>
+        <source>A fatal error occurred. %1 can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. %1 can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
-    <name>ClientModel</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation>Alerte réseau</translation>
+        <source>Coin Selection</source>
+        <translation>Coin Selection</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Quantity:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Bytes:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Amount:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Fee:</translation>
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>Dust:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>After Fee:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Change:</translation>
+    </message>
+    <message>
+        <source>(un)select all</source>
+        <translation>(un)select all</translation>
+    </message>
+    <message>
+        <source>Tree mode</source>
+        <translation>Tree mode</translation>
+    </message>
+    <message>
+        <source>List mode</source>
+        <translation>List mode</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Amount</translation>
+    </message>
+    <message>
+        <source>Received with label</source>
+        <translation>Received with label</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>Received with address</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Date</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation>Confirmations</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Confirmed</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Copy address</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copy label</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copy amount</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Copy transaction ID</translation>
+    </message>
+    <message>
+        <source>Lock unspent</source>
+        <translation>Lock unspent</translation>
+    </message>
+    <message>
+        <source>Unlock unspent</source>
+        <translation>Unlock unspent</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Copy quantity</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Copy fee</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Copy after fee</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Copy bytes</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>Copy dust</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Copy change</translation>
+    </message>
+    <message>
+        <source>(%1 locked)</source>
+        <translation>(%1 locked)</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>yes</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
+        <translation>This label turns red if any recipient receives an amount smaller than the current dust threshold.</translation>
+    </message>
+    <message>
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>Can vary +/- %1 satoshi(s) per input.</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(no label)</translation>
+    </message>
+    <message>
+        <source>change from %1 (%2)</source>
+        <translation>change from %1 (%2)</translation>
+    </message>
+    <message>
+        <source>(change)</source>
+        <translation>(change)</translation>
+    </message>
+</context>
+<context>
+    <name>CreateWalletActivity</name>
+    <message>
+        <source>Creating Wallet &lt;b&gt;%1&lt;/b&gt;...</source>
+        <translation>Creating Wallet &lt;b&gt;%1&lt;/b&gt;...</translation>
+    </message>
+    <message>
+        <source>Create wallet failed</source>
+        <translation>Create wallet failed</translation>
+    </message>
+    <message>
+        <source>Create wallet warning</source>
+        <translation>Create wallet warning</translation>
+    </message>
+</context>
+<context>
+    <name>CreateWalletDialog</name>
+    <message>
+        <source>Create Wallet</source>
+        <translation>Create Wallet</translation>
+    </message>
+    <message>
+        <source>Wallet Name</source>
+        <translation>Wallet Name</translation>
+    </message>
+    <message>
+        <source>Encrypt the wallet. The wallet will be encrypted with a passphrase of your choice.</source>
+        <translation>Encrypt the wallet. The wallet will be encrypted with a passphrase of your choice.</translation>
+    </message>
+    <message>
+        <source>Encrypt Wallet</source>
+        <translation>Encrypt Wallet</translation>
+    </message>
+    <message>
+        <source>Disable private keys for this wallet. Wallets with private keys disabled will have no private keys and cannot have an HD seed or imported private keys. This is ideal for watch-only wallets.</source>
+        <translation>Disable private keys for this wallet. Wallets with private keys disabled will have no private keys and cannot have an HD seed or imported private keys. This is ideal for watch-only wallets.</translation>
+    </message>
+    <message>
+        <source>Disable Private Keys</source>
+        <translation>Disable Private Keys</translation>
+    </message>
+    <message>
+        <source>Make a blank wallet. Blank wallets do not initially have private keys or scripts. Private keys and addresses can be imported, or an HD seed can be set, at a later time.</source>
+        <translation>Make a blank wallet. Blank wallets do not initially have private keys or scripts. Private keys and addresses can be imported, or an HD seed can be set, at a later time.</translation>
+    </message>
+    <message>
+        <source>Make Blank Wallet</source>
+        <translation>Make Blank Wallet</translation>
+    </message>
+    <message>
+        <source>Use descriptors for scriptPubKey management</source>
+        <translation>Use descriptors for scriptPubKey management</translation>
+    </message>
+    <message>
+        <source>Descriptor Wallet</source>
+        <translation>Descriptor Wallet</translation>
+    </message>
+    <message>
+        <source>Create</source>
+        <translation>Create</translation>
+    </message>
+    <message>
+        <source>Compiled without sqlite support (required for descriptor wallets)</source>
+        <translation>Compiled without sqlite support (required for descriptor wallets)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>Éditer l&apos;adresse</translation>
+        <translation>Edit Address</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>&amp;Étiquette</translation>
+        <translation>&amp;Label</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>L’étiquette associée à cette entrée du carnet d&apos;adresses</translation>
+        <source>The label associated with this address list entry</source>
+        <translation>The label associated with this address list entry</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>The address associated with this address list entry. This can only be modified for sending addresses.</translation>
+    </message>
+    <message>
         <source>&amp;Address</source>
-        <translation>&amp;Adresse</translation>
+        <translation>&amp;Address</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>L’adresse associée avec cette entrée du carnet d&apos;adresses. Ne peut être modifiées que les adresses d’envoi.</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation>Nouvelle adresse de réception</translation>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>New sending address</source>
-        <translation>Nouvelle adresse d’envoi</translation>
+        <translation>New sending address</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>Éditer l’adresse de réception</translation>
+        <translation>Edit receiving address</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Éditer l’adresse d&apos;envoi</translation>
+        <translation>Edit sending address</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>L’adresse fournie « %1 » est déjà présente dans le carnet d&apos;adresses.</translation>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>The entered address "%1" is not a valid Bitcoin address.</translation>
     </message>
     <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Pepecoin address.</source>
-        <translation>L&apos;adresse fournie « %1 » n&apos;est pas une adresse Pepecoin valide.</translation>
+        <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
+        <translation>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>The entered address "%1" is already in the address book with label "%2".</source>
+        <translation>The entered address "%1" is already in the address book with label "%2".</translation>
+    </message>
+    <message>
         <source>Could not unlock wallet.</source>
-        <translation>Impossible de déverrouiller le porte-monnaie.</translation>
+        <translation>Could not unlock wallet.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>Échec de la génération de la nouvelle clef.</translation>
+        <translation>New key generation failed.</translation>
     </message>
 </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>FreespaceChecker</name>
     <message>
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>Pepecoin-Qt</source>
-        <translation>Pepecoin-Qt</translation>
+        <source>A new data directory will be created.</source>
+        <translation>A new data directory will be created.</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <source>name</source>
+        <translation>name</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Directory already exists. Add %1 if you intend to create a new directory here.</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Path already exists, and is not a directory.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>Cannot create data directory here.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
         <source>version</source>
         <translation>version</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Usage:</source>
-        <translation>Utilisation :</translation>
+        <source>About %1</source>
+        <translation>About %1</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>command-line options</source>
-        <translation>options de ligne de commande</translation>
+        <source>Command-line options</source>
+        <translation>Command-line options</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Welcome</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation>Options Interface Utilisateur</translation>
+        <source>Welcome to %1.</source>
+        <translation>Welcome to %1.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Définir la langue, par exemple « de_DE » (par défaut : la langue du système)</translation>
+        <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where %1 will store its data.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation>Démarrer sous forme minimisée</translation>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <translation>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation>Afficher l&apos;écran d&apos;accueil au démarrage (par défaut : 1)</translation>
+        <source>Reverting this setting requires re-downloading the entire blockchain. It is faster to download the full chain first and prune it later. Disables some advanced features.</source>
+        <translation>Reverting this setting requires re-downloading the entire blockchain. It is faster to download the full chain first and prune it later. Disables some advanced features.</translation>
+    </message>
+    <message>
+        <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
+        <translation>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</translation>
+    </message>
+    <message>
+        <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
+        <translation>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>Use the default data directory</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>Use a custom data directory:</translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
+        <translation>Discard blocks after verification, except most recent %1 GB (prune)</translation>
+    </message>
+    <message>
+        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>At least %1 GB of data will be stored in this directory, and it will grow over time.</translation>
+    </message>
+    <message>
+        <source>Approximately %1 GB of data will be stored in this directory.</source>
+        <translation>Approximately %1 GB of data will be stored in this directory.</translation>
+    </message>
+    <message>
+        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <translation>%1 will download and store a copy of the Bitcoin block chain.</translation>
+    </message>
+    <message>
+        <source>The wallet will also be stored in this directory.</source>
+        <translation>The wallet will also be stored in this directory.</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>Error: Specified data directory "%1" cannot be created.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Error</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>%n GB of free space available</numerusform><numerusform>%n GB of free space available</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(of %n GB needed)</numerusform><numerusform>(of %n GB needed)</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>(%n GB needed for full chain)</source>
+        <translation><numerusform>(%n GB needed for full chain)</numerusform><numerusform>(%n GB needed for full chain)</numerusform></translation>
+    </message>
+</context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Form</translation>
+    </message>
+    <message>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <translation>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</translation>
+    </message>
+    <message>
+        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</translation>
+    </message>
+    <message>
+        <source>Number of blocks left</source>
+        <translation>Number of blocks left</translation>
+    </message>
+    <message>
+        <source>Unknown...</source>
+        <translation>Unknown...</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Last block time</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progress</translation>
+    </message>
+    <message>
+        <source>Progress increase per hour</source>
+        <translation>Progress increase per hour</translation>
+    </message>
+    <message>
+        <source>calculating...</source>
+        <translation>calculating...</translation>
+    </message>
+    <message>
+        <source>Estimated time left until synced</source>
+        <translation>Estimated time left until synced</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Hide</translation>
+    </message>
+    <message>
+        <source>Esc</source>
+        <translation>Esc</translation>
+    </message>
+    <message>
+        <source>%1 is currently syncing.  It will download headers and blocks from peers and validate them until reaching the tip of the block chain.</source>
+        <translation>%1 is currently syncing.  It will download headers and blocks from peers and validate them until reaching the tip of the block chain.</translation>
+    </message>
+    <message>
+        <source>Unknown. Syncing Headers (%1, %2%)...</source>
+        <translation>Unknown. Syncing Headers (%1, %2%)...</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open bitcoin URI</source>
+        <translation>Open bitcoin URI</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+</context>
+<context>
+    <name>OpenWalletActivity</name>
+    <message>
+        <source>Open wallet failed</source>
+        <translation>Open wallet failed</translation>
+    </message>
+    <message>
+        <source>Open wallet warning</source>
+        <translation>Open wallet warning</translation>
+    </message>
+    <message>
+        <source>default wallet</source>
+        <translation>default wallet</translation>
+    </message>
+    <message>
+        <source>Opening Wallet &lt;b&gt;%1&lt;/b&gt;...</source>
+        <translation>Opening Wallet &lt;b&gt;%1&lt;/b&gt;...</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
         <translation>Options</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>Réglages &amp;principaux</translation>
+        <translation>&amp;Main</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Frais de transaction optionnel par ko qui aident à garantir un traitement rapide des transactions. La plupart des transactions utilisent 1 ko.</translation>
+        <source>Automatically start %1 after logging in to the system.</source>
+        <translation>Automatically start %1 after logging in to the system.</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Payer des &amp;frais de transaction</translation>
+        <source>&amp;Start %1 on system login</source>
+        <translation>&amp;Start %1 on system login</translation>
     </message>
     <message>
-        <location line="+31"/>
-        <source>Automatically start Pepecoin after logging in to the system.</source>
-        <translation>Démarrer Pepecoin automatiquement lors de l&apos;ouverture une session sur l&apos;ordinateur.</translation>
+        <source>Size of &amp;database cache</source>
+        <translation>Size of &amp;database cache</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Start Pepecoin on system login</source>
-        <translation>&amp;Démarrer Pepecoin lors de l&apos;ouverture d&apos;une session</translation>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Number of script &amp;verification threads</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <translation>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</translation>
+    </message>
+    <message>
+        <source>Hide the icon from the system tray.</source>
+        <translation>Hide the icon from the system tray.</translation>
+    </message>
+    <message>
+        <source>&amp;Hide tray icon</source>
+        <translation>&amp;Hide tray icon</translation>
+    </message>
+    <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
+        <translation>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</translation>
+    </message>
+    <message>
+        <source>Open the %1 configuration file from the working directory.</source>
+        <translation>Open the %1 configuration file from the working directory.</translation>
+    </message>
+    <message>
+        <source>Open Configuration File</source>
+        <translation>Open Configuration File</translation>
+    </message>
+    <message>
         <source>Reset all client options to default.</source>
-        <translation>Remettre toutes les options du client aux valeurs par défaut.</translation>
+        <translation>Reset all client options to default.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Remise à zéro des options</translation>
+        <translation>&amp;Reset Options</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Network</source>
-        <translation>&amp;Réseau</translation>
+        <translation>&amp;Network</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Automatically open the Pepecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client Pepecoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l&apos;UPnP et si la fonctionnalité est activée.</translation>
+        <source>Disables some advanced features but all blocks will still be fully validated. Reverting this setting requires re-downloading the entire blockchain. Actual disk usage may be somewhat higher.</source>
+        <translation>Disables some advanced features but all blocks will still be fully validated. Reverting this setting requires re-downloading the entire blockchain. Actual disk usage may be somewhat higher.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Prune &amp;block storage to</source>
+        <translation>Prune &amp;block storage to</translation>
+    </message>
+    <message>
+        <source>GB</source>
+        <translation>GB</translation>
+    </message>
+    <message>
+        <source>Reverting this setting requires re-downloading the entire blockchain.</source>
+        <translation>Reverting this setting requires re-downloading the entire blockchain.</translation>
+    </message>
+    <message>
+        <source>MiB</source>
+        <translation>MiB</translation>
+    </message>
+    <message>
+        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+        <translation>(0 = auto, &lt;0 = leave that many cores free)</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>W&amp;allet</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>Expert</translation>
+    </message>
+    <message>
+        <source>Enable coin &amp;control features</source>
+        <translation>Enable coin &amp;control features</translation>
+    </message>
+    <message>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;Spend unconfirmed change</translation>
+    </message>
+    <message>
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+    </message>
+    <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Ouvrir le port avec l&apos;&amp;UPnP</translation>
+        <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Connect to the Pepecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connexion au réseau Pepecoin à travers un proxy SOCKS (par ex. lors d&apos;une connexion via Tor).</translation>
+        <source>Accept connections from outside.</source>
+        <translation>Accept connections from outside.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Connexion à travers un proxy SOCKS :</translation>
+        <source>Allow incomin&amp;g connections</source>
+        <translation>Allow incomin&amp;g connections</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <translation>Connect to the Bitcoin network through a SOCKS5 proxy.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>&amp;Connect through SOCKS5 proxy (default proxy):</translation>
+    </message>
+    <message>
         <source>Proxy &amp;IP:</source>
-        <translation>&amp;IP du proxy :</translation>
+        <translation>Proxy &amp;IP:</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>Adresse IP du proxy (par ex. 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Port:</source>
-        <translation>&amp;Port :</translation>
+        <translation>&amp;Port:</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Port du proxy (par ex. 9050)</translation>
+        <translation>Port of the proxy (e.g. 9050)</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation>&amp;Version SOCKS :</translation>
+        <source>Used for reaching peers via:</source>
+        <translation>Used for reaching peers via:</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>Version SOCKS du serveur mandataire (par ex. 5)</translation>
+        <source>IPv4</source>
+        <translation>IPv4</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <source>IPv6</source>
+        <translation>IPv6</translation>
+    </message>
+    <message>
+        <source>Tor</source>
+        <translation>Tor</translation>
+    </message>
+    <message>
         <source>&amp;Window</source>
-        <translation>&amp;Fenêtre</translation>
+        <translation>&amp;Window</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Afficher uniquement une icône système après minimisation.</translation>
+        <translation>Show only a tray icon after minimizing the window.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimiser dans la barre système au lieu de la barre des tâches</translation>
+        <translation>&amp;Minimize to the tray instead of the taskbar</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimiser au lieu quitter l&apos;application lorsque la fenêtre est fermée. Lorsque cette option est activée, l&apos;application ne pourra être fermée qu&apos;en sélectionnant Quitter dans le menu déroulant.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimiser lors de la fermeture</translation>
+        <translation>M&amp;inimize on close</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>&amp;Affichage</translation>
+        <translation>&amp;Display</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>&amp;Langue de l&apos;interface utilisateur :</translation>
+        <translation>User Interface &amp;language:</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pepecoin.</source>
-        <translation>La langue de l&apos;interface utilisateur peut être définie ici. Ce réglage sera pris en compte après redémarrage de Pepecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting %1.</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Unité d&apos;affichage des montants :</translation>
+        <translation>&amp;Unit to show amounts in:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Choisissez la sous-unité par défaut pour l&apos;affichage dans l&apos;interface et lors de l&apos;envoi de pièces.</translation>
+        <translation>Choose the default subdivision unit to show in the interface and when sending coins.</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Whether to show Pepecoin addresses in the transaction list or not.</source>
-        <translation>Détermine si les adresses Pepecoin seront affichées sur la liste des transactions.</translation>
+        <source>Whether to show coin control features or not.</source>
+        <translation>Whether to show coin control features or not.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Afficher les adresses sur la liste des transactions</translation>
+        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</translation>
     </message>
     <message>
-        <location line="+71"/>
+        <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
+        <translation>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</translation>
+    </message>
+    <message>
+        <source>&amp;Third party transaction URLs</source>
+        <translation>&amp;Third party transaction URLs</translation>
+    </message>
+    <message>
+        <source>Options set in this dialog are overridden by the command line or in the configuration file:</source>
+        <translation>Options set in this dialog are overridden by the command line or in the configuration file:</translation>
+    </message>
+    <message>
         <source>&amp;OK</source>
-        <translation>&amp;Valider</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Cancel</source>
-        <translation>A&amp;nnuler</translation>
+        <translation>&amp;Cancel</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>&amp;Appliquer</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
-        <translation>par défaut</translation>
+        <translation>default</translation>
     </message>
     <message>
-        <location line="+130"/>
+        <source>none</source>
+        <translation>none</translation>
+    </message>
+    <message>
         <source>Confirm options reset</source>
-        <translation>Confirmer la remise à zéro des options</translation>
+        <translation>Confirm options reset</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation>La prise en compte de certains réglages peut nécessiter un redémarrage du client.</translation>
+        <source>Client restart required to activate changes.</source>
+        <translation>Client restart required to activate changes.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation>Voulez-vous continuer ?</translation>
+        <source>Client will be shut down. Do you want to proceed?</source>
+        <translation>Client will be shut down. Do you want to proceed?</translation>
     </message>
     <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation>Avertissement</translation>
+        <source>Configuration options</source>
+        <translation>Configuration options</translation>
     </message>
     <message>
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting Pepecoin.</source>
-        <translation>Ce réglage sera pris en compte après un redémarrage de Pepecoin.</translation>
+        <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
+        <translation>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <source>Error</source>
+        <translation>Error</translation>
+    </message>
+    <message>
+        <source>The configuration file could not be opened.</source>
+        <translation>The configuration file could not be opened.</translation>
+    </message>
+    <message>
+        <source>This change would require a client restart.</source>
+        <translation>This change would require a client restart.</translation>
+    </message>
+    <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>L&apos;adresse de proxy fournie est invalide.</translation>
+        <translation>The supplied proxy address is invalid.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
-        <translation>Formulaire</translation>
+        <translation>Form</translation>
     </message>
     <message>
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pepecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées peuvent être obsolètes. Votre porte-monnaie est automatiquement synchronisé avec le réseau Pepecoin lorsque la connexion s&apos;établit, or ce processus n&apos;est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
-        <location line="-124"/>
-        <source>Balance:</source>
-        <translation>Solde :</translation>
+        <source>Watch-only:</source>
+        <translation>Watch-only:</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Unconfirmed:</source>
-        <translation>Non confirmé :</translation>
+        <source>Available:</source>
+        <translation>Available:</translation>
     </message>
     <message>
-        <location line="-78"/>
-        <source>Wallet</source>
-        <translation>Porte-monnaie</translation>
+        <source>Your current spendable balance</source>
+        <translation>Your current spendable balance</translation>
     </message>
     <message>
-        <location line="+107"/>
+        <source>Pending:</source>
+        <translation>Pending:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</translation>
+    </message>
+    <message>
         <source>Immature:</source>
-        <translation>Immature :</translation>
+        <translation>Immature:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>Le solde généré n&apos;est pas encore mûr</translation>
+        <translation>Mined balance that has not yet matured</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Transactions récentes&lt;/b&gt;</translation>
+        <source>Balances</source>
+        <translation>Balances</translation>
     </message>
     <message>
-        <location line="-101"/>
-        <source>Your current balance</source>
-        <translation>Votre solde actuel</translation>
+        <source>Total:</source>
+        <translation>Total:</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Total des transactions qui doivent encore être confirmées et qui ne sont pas prises en compte dans le solde actuel</translation>
+        <source>Your current total balance</source>
+        <translation>Your current total balance</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation>désynchronisé</translation>
+        <source>Your current balance in watch-only addresses</source>
+        <translation>Your current balance in watch-only addresses</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>Spendable:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Recent transactions</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>Unconfirmed transactions to watch-only addresses</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>Mined balance in watch-only addresses that has not yet matured</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Current total balance in watch-only addresses</translation>
+    </message>
+    <message>
+        <source>Privacy mode activated for the Overview tab. To unmask the values, uncheck Settings-&gt;Mask values.</source>
+        <translation>Privacy mode activated for the Overview tab. To unmask the values, uncheck Settings-&gt;Mask values.</translation>
+    </message>
+</context>
+<context>
+    <name>PSBTOperationsDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation>Dialog</translation>
+    </message>
+    <message>
+        <source>Sign Tx</source>
+        <translation>Sign Tx</translation>
+    </message>
+    <message>
+        <source>Broadcast Tx</source>
+        <translation>Broadcast Tx</translation>
+    </message>
+    <message>
+        <source>Copy to Clipboard</source>
+        <translation>Copy to Clipboard</translation>
+    </message>
+    <message>
+        <source>Save...</source>
+        <translation>Save...</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Close</translation>
+    </message>
+    <message>
+        <source>Failed to load transaction: %1</source>
+        <translation>Failed to load transaction: %1</translation>
+    </message>
+    <message>
+        <source>Failed to sign transaction: %1</source>
+        <translation>Failed to sign transaction: %1</translation>
+    </message>
+    <message>
+        <source>Could not sign any more inputs.</source>
+        <translation>Could not sign any more inputs.</translation>
+    </message>
+    <message>
+        <source>Signed %1 inputs, but more signatures are still required.</source>
+        <translation>Signed %1 inputs, but more signatures are still required.</translation>
+    </message>
+    <message>
+        <source>Signed transaction successfully. Transaction is ready to broadcast.</source>
+        <translation>Signed transaction successfully. Transaction is ready to broadcast.</translation>
+    </message>
+    <message>
+        <source>Unknown error processing transaction.</source>
+        <translation>Unknown error processing transaction.</translation>
+    </message>
+    <message>
+        <source>Transaction broadcast successfully! Transaction ID: %1</source>
+        <translation>Transaction broadcast successfully! Transaction ID: %1</translation>
+    </message>
+    <message>
+        <source>Transaction broadcast failed: %1</source>
+        <translation>Transaction broadcast failed: %1</translation>
+    </message>
+    <message>
+        <source>PSBT copied to clipboard.</source>
+        <translation>PSBT copied to clipboard.</translation>
+    </message>
+    <message>
+        <source>Save Transaction Data</source>
+        <translation>Save Transaction Data</translation>
+    </message>
+    <message>
+        <source>Partially Signed Transaction (Binary) (*.psbt)</source>
+        <translation>Partially Signed Transaction (Binary) (*.psbt)</translation>
+    </message>
+    <message>
+        <source>PSBT saved to disk.</source>
+        <translation>PSBT saved to disk.</translation>
+    </message>
+    <message>
+        <source> * Sends %1 to %2</source>
+        <translation> * Sends %1 to %2</translation>
+    </message>
+    <message>
+        <source>Unable to calculate transaction fee or total transaction amount.</source>
+        <translation>Unable to calculate transaction fee or total transaction amount.</translation>
+    </message>
+    <message>
+        <source>Pays transaction fee: </source>
+        <translation>Pays transaction fee: </translation>
+    </message>
+    <message>
+        <source>Total Amount</source>
+        <translation>Total Amount</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>or</translation>
+    </message>
+    <message>
+        <source>Transaction has %1 unsigned inputs.</source>
+        <translation>Transaction has %1 unsigned inputs.</translation>
+    </message>
+    <message>
+        <source>Transaction is missing some information about inputs.</source>
+        <translation>Transaction is missing some information about inputs.</translation>
+    </message>
+    <message>
+        <source>Transaction still needs signature(s).</source>
+        <translation>Transaction still needs signature(s).</translation>
+    </message>
+    <message>
+        <source>(But this wallet cannot sign transactions.)</source>
+        <translation>(But this wallet cannot sign transactions.)</translation>
+    </message>
+    <message>
+        <source>(But this wallet does not have the right keys.)</source>
+        <translation>(But this wallet does not have the right keys.)</translation>
+    </message>
+    <message>
+        <source>Transaction is fully signed and ready for broadcast.</source>
+        <translation>Transaction is fully signed and ready for broadcast.</translation>
+    </message>
+    <message>
+        <source>Transaction status is unknown.</source>
+        <translation>Transaction status is unknown.</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start pepecoin: click-to-pay handler</source>
-        <translation>Impossible de démarrer pepecoin : gestionnaire de cliquer-pour-payer</translation>
+        <source>Payment request error</source>
+        <translation>Payment request error</translation>
+    </message>
+    <message>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>Cannot start bitcoin: click-to-pay handler</translation>
+    </message>
+    <message>
+        <source>URI handling</source>
+        <translation>URI handling</translation>
+    </message>
+    <message>
+        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
+        <translation>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</translation>
+    </message>
+    <message>
+        <source>Cannot process payment request because BIP70 is not supported.</source>
+        <translation>Cannot process payment request because BIP70 is not supported.</translation>
+    </message>
+    <message>
+        <source>Due to widespread security flaws in BIP70 it's strongly recommended that any merchant instructions to switch wallets be ignored.</source>
+        <translation>Due to widespread security flaws in BIP70 it's strongly recommended that any merchant instructions to switch wallets be ignored.</translation>
+    </message>
+    <message>
+        <source>If you are receiving this error you should request the merchant provide a BIP21 compatible URI.</source>
+        <translation>If you are receiving this error you should request the merchant provide a BIP21 compatible URI.</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Invalid payment address %1</translation>
+    </message>
+    <message>
+        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Payment request file handling</translation>
     </message>
 </context>
 <context>
-    <name>QRCodeDialog</name>
+    <name>PeerTableModel</name>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation>Dialogue de QR Code</translation>
+        <source>User Agent</source>
+        <translation>User Agent</translation>
     </message>
     <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>Demande de paiement</translation>
+        <source>Node/Service</source>
+        <translation>Node/Service</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation>Montant :</translation>
+        <source>NodeId</source>
+        <translation>NodeId</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>Étiquette :</translation>
+        <source>Ping</source>
+        <translation>Ping</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>Message :</translation>
+        <source>Sent</source>
+        <translation>Sent</translation>
     </message>
     <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>&amp;Enregistrer sous...</translation>
+        <source>Received</source>
+        <translation>Received</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>Amount</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>Erreur de l&apos;encodage de l&apos;URI dans le QR Code.</translation>
+        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <translation>Enter a Bitcoin address (e.g. %1)</translation>
     </message>
     <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation>Le montant entré est invalide, veuillez le vérifier.</translation>
+        <source>%1 d</source>
+        <translation>%1 d</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>None</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 ms</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation><numerusform>%n second</numerusform><numerusform>%n seconds</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation><numerusform>%n minute</numerusform><numerusform>%n minutes</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hour</numerusform><numerusform>%n hours</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n day</numerusform><numerusform>%n days</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n week</numerusform><numerusform>%n weeks</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 and %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n year</numerusform><numerusform>%n years</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Error: Specified data directory "%1" does not exist.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1.</source>
+        <translation>Error: Cannot parse configuration file: %1.</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation>Error: %1</translation>
+    </message>
+    <message>
+        <source>Error initializing settings: %1</source>
+        <translation>Error initializing settings: %1</translation>
+    </message>
+    <message>
+        <source>%1 didn't yet exit safely...</source>
+        <translation>%1 didn't yet exit safely...</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>unknown</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Save Image...</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>&amp;Copy Image</translation>
+    </message>
+    <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>L&apos;URI résultant est trop long, essayez avec un texte d&apos;étiquette ou de message plus court.</translation>
+        <translation>Resulting URI too long, try to reduce the text for label / message.</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>Error encoding URI into QR Code.</translation>
+    </message>
+    <message>
+        <source>QR code support not available.</source>
+        <translation>QR code support not available.</translation>
+    </message>
+    <message>
         <source>Save QR Code</source>
-        <translation>Sauvegarder le QR Code</translation>
+        <translation>Save QR Code</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation>Images PNG (*.png)</translation>
+        <source>PNG Image (*.png)</source>
+        <translation>PNG Image (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation>Nom du client</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+339"/>
         <source>N/A</source>
-        <translation>Indisponible</translation>
+        <translation>N/A</translation>
     </message>
     <message>
-        <location line="-217"/>
         <source>Client version</source>
-        <translation>Version du client</translation>
+        <translation>Client version</translation>
     </message>
     <message>
-        <location line="-45"/>
         <source>&amp;Information</source>
-        <translation>&amp;Informations</translation>
+        <translation>&amp;Information</translation>
     </message>
     <message>
-        <location line="+68"/>
-        <source>Using OpenSSL version</source>
-        <translation>Version d&apos;OpenSSL utilisée</translation>
+        <source>General</source>
+        <translation>General</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <source>Using BerkeleyDB version</source>
+        <translation>Using BerkeleyDB version</translation>
+    </message>
+    <message>
+        <source>Datadir</source>
+        <translation>Datadir</translation>
+    </message>
+    <message>
+        <source>To specify a non-default location of the data directory use the '%1' option.</source>
+        <translation>To specify a non-default location of the data directory use the '%1' option.</translation>
+    </message>
+    <message>
+        <source>Blocksdir</source>
+        <translation>Blocksdir</translation>
+    </message>
+    <message>
+        <source>To specify a non-default location of the blocks directory use the '%1' option.</source>
+        <translation>To specify a non-default location of the blocks directory use the '%1' option.</translation>
+    </message>
+    <message>
         <source>Startup time</source>
-        <translation>Date de démarrage</translation>
+        <translation>Startup time</translation>
     </message>
     <message>
-        <location line="+29"/>
         <source>Network</source>
-        <translation>Réseau</translation>
+        <translation>Network</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
         <source>Number of connections</source>
-        <translation>Nombre de connexions</translation>
+        <translation>Number of connections</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation>Sur testnet</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Block chain</source>
-        <translation>Chaîne de blocs</translation>
+        <translation>Block chain</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Current number of blocks</source>
-        <translation>Nombre actuel de blocs</translation>
+        <source>Memory Pool</source>
+        <translation>Memory Pool</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Estimated total blocks</source>
-        <translation>Nombre total estimé de blocs</translation>
+        <source>Current number of transactions</source>
+        <translation>Current number of transactions</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <source>Memory usage</source>
+        <translation>Memory usage</translation>
+    </message>
+    <message>
+        <source>Wallet: </source>
+        <translation>Wallet: </translation>
+    </message>
+    <message>
+        <source>(none)</source>
+        <translation>(none)</translation>
+    </message>
+    <message>
+        <source>&amp;Reset</source>
+        <translation>&amp;Reset</translation>
+    </message>
+    <message>
+        <source>Received</source>
+        <translation>Received</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>Sent</translation>
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <translation>&amp;Peers</translation>
+    </message>
+    <message>
+        <source>Banned peers</source>
+        <translation>Banned peers</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Select a peer to view detailed information.</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>Direction</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <source>Starting Block</source>
+        <translation>Starting Block</translation>
+    </message>
+    <message>
+        <source>Synced Headers</source>
+        <translation>Synced Headers</translation>
+    </message>
+    <message>
+        <source>Synced Blocks</source>
+        <translation>Synced Blocks</translation>
+    </message>
+    <message>
+        <source>The mapped Autonomous System used for diversifying peer selection.</source>
+        <translation>The mapped Autonomous System used for diversifying peer selection.</translation>
+    </message>
+    <message>
+        <source>Mapped AS</source>
+        <translation>Mapped AS</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>User Agent</translation>
+    </message>
+    <message>
+        <source>Node window</source>
+        <translation>Node window</translation>
+    </message>
+    <message>
+        <source>Current block height</source>
+        <translation>Current block height</translation>
+    </message>
+    <message>
+        <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+    </message>
+    <message>
+        <source>Decrease font size</source>
+        <translation>Decrease font size</translation>
+    </message>
+    <message>
+        <source>Increase font size</source>
+        <translation>Increase font size</translation>
+    </message>
+    <message>
+        <source>Permissions</source>
+        <translation>Permissions</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>Services</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>Connection Time</translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>Last Send</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>Last Receive</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Ping Time</translation>
+    </message>
+    <message>
+        <source>The duration of a currently outstanding ping.</source>
+        <translation>The duration of a currently outstanding ping.</translation>
+    </message>
+    <message>
+        <source>Ping Wait</source>
+        <translation>Ping Wait</translation>
+    </message>
+    <message>
+        <source>Min Ping</source>
+        <translation>Min Ping</translation>
+    </message>
+    <message>
+        <source>Time Offset</source>
+        <translation>Time Offset</translation>
+    </message>
+    <message>
         <source>Last block time</source>
-        <translation>Horodatage du dernier bloc</translation>
+        <translation>Last block time</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>&amp;Open</source>
-        <translation>&amp;Ouvrir</translation>
+        <translation>&amp;Open</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation>Options de ligne de commande</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show the Pepecoin-Qt help message to get a list with possible Pepecoin command-line options.</source>
-        <translation>Afficher le message d&apos;aide de Pepecoin-Qt pour obtenir la liste des options de ligne de commande disponibles pour Pepecoin.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Show</source>
-        <translation>&amp;Afficher</translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>&amp;Console</source>
         <translation>&amp;Console</translation>
     </message>
     <message>
-        <location line="-260"/>
-        <source>Build date</source>
-        <translation>Date de compilation</translation>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;Network Traffic</translation>
     </message>
     <message>
-        <location line="-104"/>
-        <source>Pepecoin - Debug window</source>
-        <translation>Pepecoin - Fenêtre de débogage</translation>
+        <source>Totals</source>
+        <translation>Totals</translation>
     </message>
     <message>
-        <location line="+25"/>
-        <source>Pepecoin Core</source>
-        <translation>Noyau Pepecoin</translation>
+        <source>In:</source>
+        <translation>In:</translation>
     </message>
     <message>
-        <location line="+279"/>
+        <source>Out:</source>
+        <translation>Out:</translation>
+    </message>
+    <message>
         <source>Debug log file</source>
-        <translation>Journal de débogage</translation>
+        <translation>Debug log file</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Open the Pepecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvrir le journal de débogage de Pepecoin depuis le répertoire de données actuel. Cela peut prendre quelques secondes pour les journaux de grande taille.</translation>
-    </message>
-    <message>
-        <location line="+102"/>
         <source>Clear console</source>
-        <translation>Nettoyer la console</translation>
+        <translation>Clear console</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Pepecoin RPC console.</source>
-        <translation>Bienvenue sur la console RPC de Pepecoin.</translation>
+        <source>1 &amp;hour</source>
+        <translation>1 &amp;hour</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Utilisez les touches de curseur pour naviguer dans l&apos;historique et &lt;b&gt;Ctrl-L&lt;/b&gt; pour effacer l&apos;écran.</translation>
+        <source>1 &amp;day</source>
+        <translation>1 &amp;day</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Tapez &lt;b&gt;help&lt;/b&gt; pour afficher une vue générale des commandes disponibles.</translation>
+        <source>1 &amp;week</source>
+        <translation>1 &amp;week</translation>
+    </message>
+    <message>
+        <source>1 &amp;year</source>
+        <translation>1 &amp;year</translation>
+    </message>
+    <message>
+        <source>&amp;Disconnect</source>
+        <translation>&amp;Disconnect</translation>
+    </message>
+    <message>
+        <source>Ban for</source>
+        <translation>Ban for</translation>
+    </message>
+    <message>
+        <source>&amp;Unban</source>
+        <translation>&amp;Unban</translation>
+    </message>
+    <message>
+        <source>Welcome to the %1 RPC console.</source>
+        <translation>Welcome to the %1 RPC console.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
+        <translation>Use up and down arrows to navigate history, and %1 to clear screen.</translation>
+    </message>
+    <message>
+        <source>Type %1 for an overview of available commands.</source>
+        <translation>Type %1 for an overview of available commands.</translation>
+    </message>
+    <message>
+        <source>For more information on using this console type %1.</source>
+        <translation>For more information on using this console type %1.</translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
+        <translation>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</translation>
+    </message>
+    <message>
+        <source>Network activity disabled</source>
+        <translation>Network activity disabled</translation>
+    </message>
+    <message>
+        <source>Executing command without any wallet</source>
+        <translation>Executing command without any wallet</translation>
+    </message>
+    <message>
+        <source>Executing command using "%1" wallet</source>
+        <translation>Executing command using "%1" wallet</translation>
+    </message>
+    <message>
+        <source>(node id: %1)</source>
+        <translation>(node id: %1)</translation>
+    </message>
+    <message>
+        <source>via %1</source>
+        <translation>via %1</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>never</translation>
+    </message>
+    <message>
+        <source>Inbound</source>
+        <translation>Inbound</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>Outbound</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unknown</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Amount:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Label:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;Message:</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</translation>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address.</source>
+        <translation>An optional label to associate with the new receiving address.</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>An optional amount to request. Leave this empty or zero to not request a specific amount.</translation>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address (used by you to identify an invoice).  It is also attached to the payment request.</source>
+        <translation>An optional label to associate with the new receiving address (used by you to identify an invoice).  It is also attached to the payment request.</translation>
+    </message>
+    <message>
+        <source>An optional message that is attached to the payment request and may be displayed to the sender.</source>
+        <translation>An optional message that is attached to the payment request and may be displayed to the sender.</translation>
+    </message>
+    <message>
+        <source>&amp;Create new receiving address</source>
+        <translation>&amp;Create new receiving address</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Clear all fields of the form.</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Clear</translation>
+    </message>
+    <message>
+        <source>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don't support them. When unchecked, an address compatible with older wallets will be created instead.</source>
+        <translation>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don't support them. When unchecked, an address compatible with older wallets will be created instead.</translation>
+    </message>
+    <message>
+        <source>Generate native segwit (Bech32) address</source>
+        <translation>Generate native segwit (Bech32) address</translation>
+    </message>
+    <message>
+        <source>Requested payments history</source>
+        <translation>Requested payments history</translation>
+    </message>
+    <message>
+        <source>Show the selected request (does the same as double clicking an entry)</source>
+        <translation>Show the selected request (does the same as double clicking an entry)</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Show</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>Remove the selected entries from the list</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Remove</translation>
+    </message>
+    <message>
+        <source>Copy URI</source>
+        <translation>Copy URI</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copy label</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Copy message</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copy amount</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Could not unlock wallet.</translation>
+    </message>
+    <message>
+        <source>Could not generate new %1 address</source>
+        <translation>Could not generate new %1 address</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Request payment to ...</source>
+        <translation>Request payment to ...</translation>
+    </message>
+    <message>
+        <source>Address:</source>
+        <translation>Address:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Amount:</translation>
+    </message>
+    <message>
+        <source>Label:</source>
+        <translation>Label:</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Message:</translation>
+    </message>
+    <message>
+        <source>Wallet:</source>
+        <translation>Wallet:</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URI</source>
+        <translation>Copy &amp;URI</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>Copy &amp;Address</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Save Image...</translation>
+    </message>
+    <message>
+        <source>Request payment to %1</source>
+        <translation>Request payment to %1</translation>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation>Payment information</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Date</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Message</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(no label)</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>(no message)</translation>
+    </message>
+    <message>
+        <source>(no amount requested)</source>
+        <translation>(no amount requested)</translation>
+    </message>
+    <message>
+        <source>Requested</source>
+        <translation>Requested</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Envoyer des pièces</translation>
+        <translation>Send Coins</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <source>Coin Control Features</source>
+        <translation>Coin Control Features</translation>
+    </message>
+    <message>
+        <source>Inputs...</source>
+        <translation>Inputs...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>automatically selected</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>Insufficient funds!</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Quantity:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Bytes:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Amount:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Fee:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>After Fee:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Change:</translation>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>Custom change address</translation>
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>Transaction Fee:</translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation>Choose...</translation>
+    </message>
+    <message>
+        <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
+        <translation>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</translation>
+    </message>
+    <message>
+        <source>Warning: Fee estimation is currently not possible.</source>
+        <translation>Warning: Fee estimation is currently not possible.</translation>
+    </message>
+    <message>
+        <source>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
+
+Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
+        <translation>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
+
+Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>per kilobyte</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Hide</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>Recommended:</translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>Custom:</translation>
+    </message>
+    <message>
+        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+        <translation>(Smart fee not initialized yet. This usually takes a few blocks...)</translation>
+    </message>
+    <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Envoyer des pièces à plusieurs destinataires à la fois</translation>
+        <translation>Send to multiple recipients at once</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>Ajouter un &amp;destinataire</translation>
+        <translation>Add &amp;Recipient</translation>
     </message>
     <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation>Enlever tous les champs de transaction</translation>
+        <source>Clear all fields of the form.</source>
+        <translation>Clear all fields of the form.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Dust:</source>
+        <translation>Dust:</translation>
+    </message>
+    <message>
+        <source>Hide transaction fee settings</source>
+        <translation>Hide transaction fee settings</translation>
+    </message>
+    <message>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <translation>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</translation>
+    </message>
+    <message>
+        <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
+        <translation>A too low fee might result in a never confirming transaction (read the tooltip)</translation>
+    </message>
+    <message>
+        <source>Confirmation time target:</source>
+        <translation>Confirmation time target:</translation>
+    </message>
+    <message>
+        <source>Enable Replace-By-Fee</source>
+        <translation>Enable Replace-By-Fee</translation>
+    </message>
+    <message>
+        <source>With Replace-By-Fee (BIP-125) you can increase a transaction's fee after it is sent. Without this, a higher fee may be recommended to compensate for increased transaction delay risk.</source>
+        <translation>With Replace-By-Fee (BIP-125) you can increase a transaction's fee after it is sent. Without this, a higher fee may be recommended to compensate for increased transaction delay risk.</translation>
+    </message>
+    <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;Tout nettoyer</translation>
+        <translation>Clear &amp;All</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Balance:</source>
-        <translation>Solde :</translation>
+        <translation>Balance:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>Confirmer l’action d&apos;envoi</translation>
+        <translation>Confirm the send action</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>E&amp;nvoyer</translation>
+        <translation>S&amp;end</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; à %2 (%3)</translation>
+        <source>Copy quantity</source>
+        <translation>Copy quantity</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <source>Copy amount</source>
+        <translation>Copy amount</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Copy fee</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Copy after fee</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Copy bytes</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>Copy dust</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Copy change</translation>
+    </message>
+    <message>
+        <source>%1 (%2 blocks)</source>
+        <translation>%1 (%2 blocks)</translation>
+    </message>
+    <message>
+        <source>Cr&amp;eate Unsigned</source>
+        <translation>Cr&amp;eate Unsigned</translation>
+    </message>
+    <message>
+        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</translation>
+    </message>
+    <message>
+        <source> from wallet '%1'</source>
+        <translation> from wallet '%1'</translation>
+    </message>
+    <message>
+        <source>%1 to '%2'</source>
+        <translation>%1 to '%2'</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 to %2</translation>
+    </message>
+    <message>
+        <source>Do you want to draft this transaction?</source>
+        <translation>Do you want to draft this transaction?</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Are you sure you want to send?</translation>
+    </message>
+    <message>
+        <source>Create Unsigned</source>
+        <translation>Create Unsigned</translation>
+    </message>
+    <message>
+        <source>Save Transaction Data</source>
+        <translation>Save Transaction Data</translation>
+    </message>
+    <message>
+        <source>Partially Signed Transaction (Binary) (*.psbt)</source>
+        <translation>Partially Signed Transaction (Binary) (*.psbt)</translation>
+    </message>
+    <message>
+        <source>PSBT saved</source>
+        <translation>PSBT saved</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>or</translation>
+    </message>
+    <message>
+        <source>You can increase the fee later (signals Replace-By-Fee, BIP-125).</source>
+        <translation>You can increase the fee later (signals Replace-By-Fee, BIP-125).</translation>
+    </message>
+    <message>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</translation>
+    </message>
+    <message>
+        <source>Please, review your transaction.</source>
+        <translation>Please, review your transaction.</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Transaction fee</translation>
+    </message>
+    <message>
+        <source>Not signalling Replace-By-Fee, BIP-125.</source>
+        <translation>Not signalling Replace-By-Fee, BIP-125.</translation>
+    </message>
+    <message>
+        <source>Total Amount</source>
+        <translation>Total Amount</translation>
+    </message>
+    <message>
+        <source>To review recipient list click "Show Details..."</source>
+        <translation>To review recipient list click "Show Details..."</translation>
+    </message>
+    <message>
         <source>Confirm send coins</source>
-        <translation>Confirmer l’envoi des pièces</translation>
+        <translation>Confirm send coins</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>Êtes-vous sûr de vouloir envoyer %1 ?</translation>
+        <source>Confirm transaction proposal</source>
+        <translation>Confirm transaction proposal</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation> et </translation>
+        <source>Send</source>
+        <translation>Send</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>Cette adresse de destinataire n’est pas valide, veuillez la vérifier.</translation>
+        <source>Watch-only balance:</source>
+        <translation>Watch-only balance:</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <source>The recipient address is not valid. Please recheck.</source>
+        <translation>The recipient address is not valid. Please recheck.</translation>
+    </message>
+    <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Le montant à payer doit être supérieur à 0.</translation>
+        <translation>The amount to pay must be larger than 0.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Le montant dépasse votre solde.</translation>
+        <translation>The amount exceeds your balance.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Le montant dépasse votre solde lorsque les frais de transaction de %1 sont inclus.</translation>
+        <translation>The total exceeds your balance when the %1 transaction fee is included.</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Adresse dupliquée trouvée, il n&apos;est possible d&apos;envoyer qu&apos;une fois à chaque adresse par opération d&apos;envoi.</translation>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>Duplicate address found: addresses should only be used once each.</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation>Erreur : Échec de la création de la transaction !</translation>
+        <source>Transaction creation failed!</source>
+        <translation>Transaction creation failed!</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Erreur : la transaction a été rejetée. Cela peut arriver si certaines pièces de votre porte-monnaie ont déjà été dépensées, par exemple si vous avez utilisé une copie de wallet.dat avec laquelle les pièces ont été dépensées mais pas marquées comme telles ici.</translation>
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>A fee higher than %1 is considered an absurdly high fee.</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>Payment request expired.</translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Estimated to begin confirmation within %n block.</numerusform><numerusform>Estimated to begin confirmation within %n blocks.</numerusform></translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Bitcoin address</source>
+        <translation>Warning: Invalid Bitcoin address</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>Warning: Unknown change address</translation>
+    </message>
+    <message>
+        <source>Confirm custom change address</source>
+        <translation>Confirm custom change address</translation>
+    </message>
+    <message>
+        <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
+        <translation>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(no label)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
-        <source>Form</source>
-        <translation>Formulaire</translation>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>&amp;Montant :</translation>
+        <translation>A&amp;mount:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>Payer &amp;à :</translation>
+        <translation>Pay &amp;To:</translation>
     </message>
     <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>L&apos;adresse à laquelle le paiement sera envoyé (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Entrez une étiquette pour cette adresse afin de l’ajouter à votre carnet d’adresses</translation>
-    </message>
-    <message>
-        <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>&amp;Étiquette :</translation>
+        <translation>&amp;Label:</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Choose address from address book</source>
-        <translation>Choisir une adresse dans le carnet d&apos;adresses</translation>
+        <source>Choose previously used address</source>
+        <translation>Choose previously used address</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>The Bitcoin address to send the payment to</source>
+        <translation>The Bitcoin address to send the payment to</translation>
+    </message>
+    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Coller une adresse depuis le presse-papiers</translation>
+        <translation>Paste address from clipboard</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation>Enlever ce destinataire</translation>
+        <source>Remove this entry</source>
+        <translation>Remove this entry</translation>
     </message>
     <message>
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Pepecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Entrez une adresse Pepecoin (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The amount to send in the selected unit</source>
+        <translation>The amount to send in the selected unit</translation>
+    </message>
+    <message>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</translation>
+    </message>
+    <message>
+        <source>S&amp;ubtract fee from amount</source>
+        <translation>S&amp;ubtract fee from amount</translation>
+    </message>
+    <message>
+        <source>Use available balance</source>
+        <translation>Use available balance</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Message:</translation>
+    </message>
+    <message>
+        <source>This is an unauthenticated payment request.</source>
+        <translation>This is an unauthenticated payment request.</translation>
+    </message>
+    <message>
+        <source>This is an authenticated payment request.</source>
+        <translation>This is an authenticated payment request.</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>Enter a label for this address to add it to the list of used addresses</translation>
+    </message>
+    <message>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>Pay To:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>Memo:</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>%1 is shutting down...</source>
+        <translation>%1 is shutting down...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Do not shut down the computer until this window disappears.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Signatures - Signer / Vérifier un message</translation>
+        <translation>Signatures - Sign / Verify a Message</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Signer un message</translation>
+        <translation>&amp;Sign Message</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Vous pouvez signer des messages avec vos adresses pour prouver que les détenez. Faites attention à ne pas signer quoi que ce soit de vague car des attaques d&apos;hameçonnage peuvent essayer d&apos;usurper votre identité par votre signature. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous serez d&apos;accord.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>L&apos;adresse avec laquelle le message sera signé (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The Bitcoin address to sign the message with</source>
+        <translation>The Bitcoin address to sign the message with</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+213"/>
-        <source>Choose an address from the address book</source>
-        <translation>Choisir une adresse depuis le carnet d&apos;adresses</translation>
+        <source>Choose previously used address</source>
+        <translation>Choose previously used address</translation>
     </message>
     <message>
-        <location line="-203"/>
-        <location line="+213"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Coller une adresse depuis le presse-papiers</translation>
+        <translation>Paste address from clipboard</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Entrez ici le message que vous désirez signer</translation>
+        <translation>Enter the message you want to sign here</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Signature</source>
         <translation>Signature</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Copier la signature actuelle dans le presse-papiers</translation>
+        <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>Sign the message to prove you own this Pepecoin address</source>
-        <translation>Signer le message pour prouver que vous détenez cette adresse Pepecoin</translation>
+        <source>Sign the message to prove you own this Bitcoin address</source>
+        <translation>Sign the message to prove you own this Bitcoin address</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>Signer le &amp;message</translation>
+        <translation>Sign &amp;Message</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all sign message fields</source>
-        <translation>Remettre à zéro tous les champs de signature de message</translation>
+        <translation>Reset all sign message fields</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>&amp;Tout nettoyer</translation>
+        <translation>Clear &amp;All</translation>
     </message>
     <message>
-        <location line="-87"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Vérifier un message</translation>
+        <translation>&amp;Verify Message</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Entrez ci-dessous l&apos;adresse ayant servi à signer, le message (assurez-vous d&apos;avoir copié exactement les retours à la ligne, les espacements, tabulations etc.) et la signature pour vérifier le message. Faites attention à ne pas déduire davantage de la signature que ce qui est contenu dans le message signé lui-même pour éviter d&apos;être trompé par une attaque d&apos;homme du milieu.</translation>
+        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <translation>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>L&apos;adresse avec laquelle le message a été signé (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The Bitcoin address the message was signed with</source>
+        <translation>The Bitcoin address the message was signed with</translation>
     </message>
     <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Pepecoin address</source>
-        <translation>Vérifier le message pour vous assurer qu&apos;il a bien été signé par l&apos;adresse Pepecoin spécifiée</translation>
+        <source>The signed message to verify</source>
+        <translation>The signed message to verify</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>The signature given when the message was signed</source>
+        <translation>The signature given when the message was signed</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Bitcoin address</translation>
+    </message>
+    <message>
         <source>Verify &amp;Message</source>
-        <translation>Vérifier un &amp;message</translation>
+        <translation>Verify &amp;Message</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all verify message fields</source>
-        <translation>Remettre à zéro tous les champs de vérification de message</translation>
+        <translation>Reset all verify message fields</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a Pepecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Entrez une adresse Pepecoin (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Click "Sign Message" to generate signature</translation>
     </message>
     <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Cliquez sur « Signer le message » pour générer la signature</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter Pepecoin signature</source>
-        <translation>Entrer une signature Pepecoin</translation>
-    </message>
-    <message>
-        <location line="+82"/>
-        <location line="+81"/>
         <source>The entered address is invalid.</source>
-        <translation>L&apos;adresse entrée est invalide.</translation>
+        <translation>The entered address is invalid.</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+8"/>
-        <location line="+73"/>
-        <location line="+8"/>
         <source>Please check the address and try again.</source>
-        <translation>Veuillez vérifier l&apos;adresse et réessayez.</translation>
+        <translation>Please check the address and try again.</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+81"/>
         <source>The entered address does not refer to a key.</source>
-        <translation>L&apos;adresse entrée ne fait pas référence à une clef.</translation>
+        <translation>The entered address does not refer to a key.</translation>
     </message>
     <message>
-        <location line="-73"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Le déverrouillage du porte-monnaie a été annulé.</translation>
+        <translation>Wallet unlock was cancelled.</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <source>No error</source>
+        <translation>No error</translation>
+    </message>
+    <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>La clef privée pour l&apos;adresse indiquée n&apos;est pas disponible.</translation>
+        <translation>Private key for the entered address is not available.</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Message signing failed.</source>
-        <translation>La signature du message a échoué.</translation>
+        <translation>Message signing failed.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Message signed.</source>
-        <translation>Le message a été signé.</translation>
+        <translation>Message signed.</translation>
     </message>
     <message>
-        <location line="+59"/>
         <source>The signature could not be decoded.</source>
-        <translation>La signature n&apos;a pu être décodée.</translation>
+        <translation>The signature could not be decoded.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation>Veuillez vérifier la signature et réessayez.</translation>
+        <translation>Please check the signature and try again.</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>The signature did not match the message digest.</source>
-        <translation>La signature ne correspond pas au hachage du message.</translation>
+        <translation>The signature did not match the message digest.</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Message verification failed.</source>
-        <translation>Échec de la vérification du message.</translation>
+        <translation>Message verification failed.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Message verified.</source>
-        <translation>Message vérifié.</translation>
+        <translation>Message verified.</translation>
     </message>
 </context>
 <context>
-    <name>SplashScreen</name>
+    <name>TrafficGraphWidget</name>
     <message>
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Pepecoin developers</source>
-        <translation>Les développeurs Pepecoin</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
     </message>
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Open for %n more block</numerusform><numerusform>Open for %n more blocks</numerusform></translation>
+    </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
         <source>Open until %1</source>
-        <translation>Ouvert jusqu&apos;à %1</translation>
+        <translation>Open until %1</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>%1/offline</source>
-        <translation>%1/hors ligne</translation>
+        <source>conflicted with a transaction with %1 confirmations</source>
+        <translation>conflicted with a transaction with %1 confirmations</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>0/unconfirmed, %1</source>
+        <translation>0/unconfirmed, %1</translation>
+    </message>
+    <message>
+        <source>in memory pool</source>
+        <translation>in memory pool</translation>
+    </message>
+    <message>
+        <source>not in memory pool</source>
+        <translation>not in memory pool</translation>
+    </message>
+    <message>
+        <source>abandoned</source>
+        <translation>abandoned</translation>
+    </message>
+    <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/non confirmée</translation>
+        <translation>%1/unconfirmed</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>%1 confirmations</source>
         <translation>%1 confirmations</translation>
     </message>
     <message>
-        <location line="+18"/>
         <source>Status</source>
-        <translation>État</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, diffusée à travers %n nœud</numerusform><numerusform>, diffusée à travers %n nœuds</numerusform></translation>
+        <translation>Status</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Date</source>
         <translation>Date</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Source</source>
         <translation>Source</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Generated</source>
-        <translation>Génération</translation>
+        <translation>Generated</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <location line="+17"/>
         <source>From</source>
-        <translation>De</translation>
+        <translation>From</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
+        <source>unknown</source>
+        <translation>unknown</translation>
+    </message>
+    <message>
         <source>To</source>
-        <translation>À</translation>
+        <translation>To</translation>
     </message>
     <message>
-        <location line="-77"/>
-        <location line="+2"/>
         <source>own address</source>
-        <translation>votre propre adresse</translation>
+        <translation>own address</translation>
     </message>
     <message>
-        <location line="-2"/>
+        <source>watch-only</source>
+        <translation>watch-only</translation>
+    </message>
+    <message>
         <source>label</source>
-        <translation>étiquette</translation>
+        <translation>label</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
         <source>Credit</source>
-        <translation>Crédit</translation>
+        <translation>Credit</translation>
     </message>
     <message numerus="yes">
-        <location line="-102"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>arrive à maturité dans %n bloc</numerusform><numerusform>arrive à maturité dans %n blocs de plus</numerusform></translation>
+        <translation><numerusform>matures in %n more block</numerusform><numerusform>matures in %n more blocks</numerusform></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>not accepted</source>
-        <translation>non accepté</translation>
+        <translation>not accepted</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
         <source>Debit</source>
-        <translation>Débit</translation>
+        <translation>Debit</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <source>Total debit</source>
+        <translation>Total debit</translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation>Total credit</translation>
+    </message>
+    <message>
         <source>Transaction fee</source>
-        <translation>Frais de transaction</translation>
+        <translation>Transaction fee</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>Net amount</source>
-        <translation>Montant net</translation>
+        <translation>Net amount</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Message</source>
         <translation>Message</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Comment</source>
-        <translation>Commentaire</translation>
+        <translation>Comment</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transaction ID</source>
-        <translation>ID de la transaction</translation>
+        <translation>Transaction ID</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Les pièces générées doivent mûrir pendant 120 blocs avant de pouvoir être dépensées. Lorsque vous avez généré ce bloc, il a été diffusé sur le réseau pour être ajouté à la chaîne de blocs. S’il échoue a intégrer la chaîne, son état sera modifié en « non accepté » et il ne sera pas possible de le dépenser. Cela peut arriver occasionnellement si un autre nœud génère un bloc quelques secondes avant ou après vous.</translation>
+        <source>Transaction total size</source>
+        <translation>Transaction total size</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Transaction virtual size</source>
+        <translation>Transaction virtual size</translation>
+    </message>
+    <message>
+        <source>Output index</source>
+        <translation>Output index</translation>
+    </message>
+    <message>
+        <source> (Certificate was not verified)</source>
+        <translation> (Certificate was not verified)</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>Merchant</translation>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
+    </message>
+    <message>
         <source>Debug information</source>
-        <translation>Informations de débogage</translation>
+        <translation>Debug information</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Transaction</source>
         <translation>Transaction</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Inputs</source>
-        <translation>Entrées</translation>
+        <translation>Inputs</translation>
     </message>
     <message>
-        <location line="+23"/>
         <source>Amount</source>
-        <translation>Montant</translation>
+        <translation>Amount</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>true</source>
-        <translation>vrai</translation>
+        <translation>true</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>false</source>
-        <translation>faux</translation>
-    </message>
-    <message>
-        <location line="-209"/>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, n’a pas encore été diffusée avec succès</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-35"/>
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Ouvert pour %n bloc de plus</numerusform><numerusform>Ouvert pour %n blocs de plus</numerusform></translation>
-    </message>
-    <message>
-        <location line="+70"/>
-        <source>unknown</source>
-        <translation>inconnu</translation>
+        <translation>false</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
-        <source>Transaction details</source>
-        <translation>Détails de la transaction</translation>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>This pane shows a detailed description of the transaction</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ce panneau affiche une description détaillée de la transaction</translation>
+        <source>Details for %1</source>
+        <translation>Details for %1</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
         <source>Date</source>
         <translation>Date</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Adresse</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Amount</source>
-        <translation>Montant</translation>
+        <source>Label</source>
+        <translation>Label</translation>
     </message>
     <message numerus="yes">
-        <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Ouvert pour %n bloc de plus</numerusform><numerusform>Ouvert pour %n blocs de plus</numerusform></translation>
+        <translation><numerusform>Open for %n more block</numerusform><numerusform>Open for %n more blocks</numerusform></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Open until %1</source>
-        <translation>Ouvert jusqu&apos;à %1</translation>
+        <translation>Open until %1</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation>Hors ligne (%1 confirmations)</translation>
+        <source>Unconfirmed</source>
+        <translation>Unconfirmed</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Non confirmée (%1 confirmations sur un total de %2)</translation>
+        <source>Abandoned</source>
+        <translation>Abandoned</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>Confirming (%1 of %2 recommended confirmations)</translation>
+    </message>
+    <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Confirmée (%1 confirmations)</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>Le solde généré (mined) sera disponible quand il aura mûri dans %n bloc</numerusform><numerusform>Le solde généré (mined) sera disponible quand il aura mûri dans %n blocs</numerusform></translation>
+        <translation>Confirmed (%1 confirmations)</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ce bloc n’a été reçu par aucun autre nœud et ne sera probablement pas accepté !</translation>
+        <source>Conflicted</source>
+        <translation>Conflicted</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>Immature (%1 confirmations, will be available after %2)</translation>
+    </message>
+    <message>
         <source>Generated but not accepted</source>
-        <translation>Généré mais pas accepté</translation>
+        <translation>Generated but not accepted</translation>
     </message>
     <message>
-        <location line="+43"/>
         <source>Received with</source>
-        <translation>Reçue avec</translation>
+        <translation>Received with</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Received from</source>
-        <translation>Reçue de</translation>
+        <translation>Received from</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sent to</source>
-        <translation>Envoyée à</translation>
+        <translation>Sent to</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>Paiement à vous-même</translation>
+        <translation>Payment to yourself</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Mined</source>
-        <translation>Extraction</translation>
+        <translation>Mined</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <source>watch-only</source>
+        <translation>watch-only</translation>
+    </message>
+    <message>
         <source>(n/a)</source>
-        <translation>(indisponible)</translation>
+        <translation>(n/a)</translation>
     </message>
     <message>
-        <location line="+199"/>
+        <source>(no label)</source>
+        <translation>(no label)</translation>
+    </message>
+    <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>État de la transaction. Laissez le pointeur de la souris sur ce champ pour voir le nombre de confirmations.</translation>
+        <translation>Transaction status. Hover over this field to show number of confirmations.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Date et heure de réception de la transaction.</translation>
+        <translation>Date and time that the transaction was received.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation>Type de transaction.</translation>
+        <translation>Type of transaction.</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Destination address of transaction.</source>
-        <translation>L’adresse de destination de la transaction.</translation>
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation>Whether or not a watch-only address is involved in this transaction.</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>User-defined intent/purpose of the transaction.</source>
+        <translation>User-defined intent/purpose of the transaction.</translation>
+    </message>
+    <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Montant ajouté au, ou enlevé du, solde.</translation>
+        <translation>Amount removed from or added to balance.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+52"/>
-        <location line="+16"/>
         <source>All</source>
-        <translation>Toutes</translation>
+        <translation>All</translation>
     </message>
     <message>
-        <location line="-15"/>
         <source>Today</source>
-        <translation>Aujourd’hui</translation>
+        <translation>Today</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This week</source>
-        <translation>Cette semaine</translation>
+        <translation>This week</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This month</source>
-        <translation>Ce mois-ci</translation>
+        <translation>This month</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Last month</source>
-        <translation>Mois dernier</translation>
+        <translation>Last month</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This year</source>
-        <translation>Cette année</translation>
+        <translation>This year</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Range...</source>
-        <translation>Intervalle…</translation>
+        <translation>Range...</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Received with</source>
-        <translation>Reçues avec</translation>
+        <translation>Received with</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Sent to</source>
-        <translation>Envoyées à</translation>
+        <translation>Sent to</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>To yourself</source>
-        <translation>À vous-même</translation>
+        <translation>To yourself</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Mined</source>
-        <translation>Extraction</translation>
+        <translation>Mined</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Other</source>
-        <translation>Autres</translation>
+        <translation>Other</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Enter address or label to search</source>
-        <translation>Entrez une adresse ou une étiquette à rechercher</translation>
+        <source>Enter address, transaction id, or label to search</source>
+        <translation>Enter address, transaction id, or label to search</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Min amount</source>
-        <translation>Montant min</translation>
+        <translation>Min amount</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <source>Abandon transaction</source>
+        <translation>Abandon transaction</translation>
+    </message>
+    <message>
+        <source>Increase transaction fee</source>
+        <translation>Increase transaction fee</translation>
+    </message>
+    <message>
         <source>Copy address</source>
-        <translation>Copier l’adresse</translation>
+        <translation>Copy address</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy label</source>
-        <translation>Copier l’étiquette</translation>
+        <translation>Copy label</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy amount</source>
-        <translation>Copier le montant</translation>
+        <translation>Copy amount</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy transaction ID</source>
-        <translation>Copier l&apos;ID de la transaction</translation>
+        <translation>Copy transaction ID</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Copy raw transaction</source>
+        <translation>Copy raw transaction</translation>
+    </message>
+    <message>
+        <source>Copy full transaction details</source>
+        <translation>Copy full transaction details</translation>
+    </message>
+    <message>
         <source>Edit label</source>
-        <translation>Éditer l’étiquette</translation>
+        <translation>Edit label</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show transaction details</source>
-        <translation>Afficher les détails de la transaction</translation>
+        <translation>Show transaction details</translation>
     </message>
     <message>
-        <location line="+139"/>
-        <source>Export Transaction Data</source>
-        <translation>Exporter les données des transactions</translation>
+        <source>Export Transaction History</source>
+        <translation>Export Transaction History</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Valeurs séparées par des virgules (*.csv)</translation>
+        <translation>Comma separated file (*.csv)</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Confirmed</source>
-        <translation>Confirmée</translation>
+        <translation>Confirmed</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Watch-only</source>
+        <translation>Watch-only</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Date</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Label</source>
-        <translation>Étiquette</translation>
+        <translation>Label</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Address</source>
-        <translation>Adresse</translation>
+        <translation>Address</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation>Montant</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation>Erreur lors de l’exportation</translation>
+        <source>Exporting Failed</source>
+        <translation>Exporting Failed</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Impossible d&apos;écrire dans le fichier %1.</translation>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>There was an error trying to save the transaction history to %1.</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <source>Exporting Successful</source>
+        <translation>Exporting Successful</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>The transaction history was successfully saved to %1.</translation>
+    </message>
+    <message>
         <source>Range:</source>
-        <translation>Intervalle :</translation>
+        <translation>Range:</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>to</source>
-        <translation>à</translation>
+        <translation>to</translation>
+    </message>
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    <message>
+        <source>Unit to show amounts in. Click to select another unit.</source>
+        <translation>Unit to show amounts in. Click to select another unit.</translation>
+    </message>
+</context>
+<context>
+    <name>WalletController</name>
+    <message>
+        <source>Close wallet</source>
+        <translation>Close wallet</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to close the wallet &lt;i&gt;%1&lt;/i&gt;?</source>
+        <translation>Are you sure you wish to close the wallet &lt;i&gt;%1&lt;/i&gt;?</translation>
+    </message>
+    <message>
+        <source>Closing the wallet for too long can result in having to resync the entire chain if pruning is enabled.</source>
+        <translation>Closing the wallet for too long can result in having to resync the entire chain if pruning is enabled.</translation>
+    </message>
+    <message>
+        <source>Close all wallets</source>
+        <translation>Close all wallets</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to close all wallets?</source>
+        <translation>Are you sure you wish to close all wallets?</translation>
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    <message>
+        <source>No wallet has been loaded.
+Go to File &gt; Open Wallet to load a wallet.
+- OR -</source>
+        <translation>No wallet has been loaded.
+Go to File &gt; Open Wallet to load a wallet.
+- OR -</translation>
+    </message>
+    <message>
+        <source>Create a new wallet</source>
+        <translation>Create a new wallet</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Envoyer des pièces</translation>
+        <translation>Send Coins</translation>
+    </message>
+    <message>
+        <source>Fee bump error</source>
+        <translation>Fee bump error</translation>
+    </message>
+    <message>
+        <source>Increasing transaction fee failed</source>
+        <translation>Increasing transaction fee failed</translation>
+    </message>
+    <message>
+        <source>Do you want to increase the fee?</source>
+        <translation>Do you want to increase the fee?</translation>
+    </message>
+    <message>
+        <source>Do you want to draft a transaction with fee increase?</source>
+        <translation>Do you want to draft a transaction with fee increase?</translation>
+    </message>
+    <message>
+        <source>Current fee:</source>
+        <translation>Current fee:</translation>
+    </message>
+    <message>
+        <source>Increase:</source>
+        <translation>Increase:</translation>
+    </message>
+    <message>
+        <source>New fee:</source>
+        <translation>New fee:</translation>
+    </message>
+    <message>
+        <source>Confirm fee bump</source>
+        <translation>Confirm fee bump</translation>
+    </message>
+    <message>
+        <source>Can't draft transaction.</source>
+        <translation>Can't draft transaction.</translation>
+    </message>
+    <message>
+        <source>PSBT copied</source>
+        <translation>PSBT copied</translation>
+    </message>
+    <message>
+        <source>Can't sign transaction.</source>
+        <translation>Can't sign transaction.</translation>
+    </message>
+    <message>
+        <source>Could not commit transaction</source>
+        <translation>Could not commit transaction</translation>
+    </message>
+    <message>
+        <source>default wallet</source>
+        <translation>default wallet</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
-        <location filename="../walletview.cpp" line="+42"/>
         <source>&amp;Export</source>
-        <translation>&amp;Exporter</translation>
+        <translation>&amp;Export</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exporter les données de l&apos;onglet courant vers un fichier</translation>
+        <translation>Export the data in the current tab to a file</translation>
     </message>
     <message>
-        <location line="+193"/>
+        <source>Error</source>
+        <translation>Error</translation>
+    </message>
+    <message>
+        <source>Unable to decode PSBT from clipboard (invalid base64)</source>
+        <translation>Unable to decode PSBT from clipboard (invalid base64)</translation>
+    </message>
+    <message>
+        <source>Load Transaction Data</source>
+        <translation>Load Transaction Data</translation>
+    </message>
+    <message>
+        <source>Partially Signed Transaction (*.psbt)</source>
+        <translation>Partially Signed Transaction (*.psbt)</translation>
+    </message>
+    <message>
+        <source>PSBT file must be smaller than 100 MiB</source>
+        <translation>PSBT file must be smaller than 100 MiB</translation>
+    </message>
+    <message>
+        <source>Unable to decode PSBT</source>
+        <translation>Unable to decode PSBT</translation>
+    </message>
+    <message>
         <source>Backup Wallet</source>
-        <translation>Sauvegarder le porte-monnaie</translation>
+        <translation>Backup Wallet</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
-        <translation>Données de porte-monnaie (*.dat)</translation>
+        <translation>Wallet Data (*.dat)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Backup Failed</source>
-        <translation>Échec de la sauvegarde</translation>
+        <translation>Backup Failed</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>Une erreur est survenue lors de l&apos;enregistrement des données de porte-monnaie à un nouvel endroit</translation>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>There was an error trying to save the wallet data to %1.</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Backup Successful</source>
-        <translation>Sauvegarde réussie</translation>
+        <translation>Backup Successful</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>The wallet data was successfully saved to the new location.</source>
-        <translation>Les données de porte-monnaie ont été enregistrées avec succès sur le nouvel emplacement.</translation>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>The wallet data was successfully saved to %1.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancel</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Pepecoin version</source>
-        <translation>Version de Pepecoin</translation>
+        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
+        <translation>Distributed under the MIT software license, see the accompanying file %s or %s</translation>
     </message>
     <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation>Utilisation :</translation>
+        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
+        <translation>Prune configured below the minimum of %d MiB.  Please use a higher number.</translation>
     </message>
     <message>
-        <location line="-29"/>
-        <source>Send command to -server or pepecoind</source>
-        <translation>Envoyer une commande à -server ou à pepecoind</translation>
+        <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
+        <translation>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</translation>
     </message>
     <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>Lister les commandes</translation>
+        <source>Pruning blockstore...</source>
+        <translation>Pruning blockstore...</translation>
     </message>
     <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation>Obtenir de l’aide pour une commande</translation>
+        <source>Unable to start HTTP server. See debug log for details.</source>
+        <translation>Unable to start HTTP server. See debug log for details.</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Options:</source>
-        <translation>Options :</translation>
+        <source>The %s developers</source>
+        <translation>The %s developers</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Specify configuration file (default: pepecoin.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut : pepecoin.conf)</translation>
+        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. %s is probably already running.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: pepecoind.pid)</source>
-        <translation>Spécifier le fichier PID (par défaut : pepecoind.pid)</translation>
+        <source>Cannot provide specific connections and have addrman find outgoing connections at the same.</source>
+        <translation>Cannot provide specific connections and have addrman find outgoing connections at the same.</translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Specify data directory</source>
-        <translation>Spécifier le répertoire de données</translation>
+        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</translation>
     </message>
     <message>
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Définir la taille du tampon en mégaoctets (par défaut : 25)</translation>
+        <source>More than one onion bind address is provided. Using %s for the automatically created Tor onion service.</source>
+        <translation>More than one onion bind address is provided. Using %s for the automatically created Tor onion service.</translation>
     </message>
     <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 2023 or testnet: 12023)</source>
-        <translation>Écouter les connexions sur le &lt;port&gt; (par défaut : 2023 ou testnet : 12023)</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <translation>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Garder au plus &lt;n&gt; connexions avec les pairs (par défaut : 125)</translation>
+        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
+        <translation>Please contribute if you find %s useful. Visit %s for further information about the software.</translation>
     </message>
     <message>
-        <location line="-48"/>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Se connecter à un nœud pour obtenir des adresses de pairs puis se déconnecter</translation>
+        <source>SQLiteDatabase: Failed to prepare the statement to fetch sqlite wallet schema version: %s</source>
+        <translation>SQLiteDatabase: Failed to prepare the statement to fetch sqlite wallet schema version: %s</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>Specify your own public address</source>
-        <translation>Spécifier votre propre adresse publique</translation>
+        <source>SQLiteDatabase: Failed to prepare the statement to fetch the application id: %s</source>
+        <translation>SQLiteDatabase: Failed to prepare the statement to fetch the application id: %s</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Seuil de déconnexion des pairs de mauvaise qualité (par défaut : 100)</translation>
+        <source>SQLiteDatabase: Unknown sqlite wallet schema version %d. Only version %d is supported</source>
+        <translation>SQLiteDatabase: Unknown sqlite wallet schema version %d. Only version %d is supported</translation>
     </message>
     <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Délai en secondes de refus de reconnexion aux pairs de mauvaise qualité (par défaut : 86400)</translation>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <translation>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</translation>
     </message>
     <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>Une erreur est survenue lors de la mise en place du port RPC %u pour écouter sur IPv4 : %s</translation>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</translation>
     </message>
     <message>
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 2022 or testnet: 12022)</source>
-        <translation>Écouter les connexions JSON-RPC sur le &lt;port&gt; (par défaut : 2022 ou tesnet : 12022)</translation>
+        <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
+        <translation>This is the transaction fee you may discard if change is smaller than dust at this level</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Accepter les commandes de JSON-RPC et de la ligne de commande</translation>
+        <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
+        <translation>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Fonctionner en arrière-plan en tant que démon et accepter les commandes</translation>
+        <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
+        <translation>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <source>Use the test network</source>
-        <translation>Utiliser le réseau de test</translation>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</translation>
     </message>
     <message>
-        <location line="-112"/>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accepter les connexions entrantes (par défaut : 1 si -proxy ou -connect ne sont pas présents)</translation>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</translation>
     </message>
     <message>
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=pepecoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Pepecoin Alert&quot; admin@foo.com
+        <source>-maxmempool must be at least %d MB</source>
+        <translation>-maxmempool must be at least %d MB</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -%s address: '%s'</source>
+        <translation>Cannot resolve -%s address: '%s'</translation>
+    </message>
+    <message>
+        <source>Change index out of range</source>
+        <translation>Change index out of range</translation>
+    </message>
+    <message>
+        <source>Config setting for %s only applied on %s network when in [%s] section.</source>
+        <translation>Config setting for %s only applied on %s network when in [%s] section.</translation>
+    </message>
+    <message>
+        <source>Copyright (C) %i-%i</source>
+        <translation>Copyright (C) %i-%i</translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation>Corrupted block database detected</translation>
+    </message>
+    <message>
+        <source>Could not find asmap file %s</source>
+        <translation>Could not find asmap file %s</translation>
+    </message>
+    <message>
+        <source>Could not parse asmap file %s</source>
+        <translation>Could not parse asmap file %s</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Do you want to rebuild the block database now?</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation>Error initializing block database</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation>Error initializing wallet database environment %s!</translation>
+    </message>
+    <message>
+        <source>Error loading %s</source>
+        <translation>Error loading %s</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Private keys can only be disabled during creation</source>
+        <translation>Error loading %s: Private keys can only be disabled during creation</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet corrupted</source>
+        <translation>Error loading %s: Wallet corrupted</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet requires newer version of %s</source>
+        <translation>Error loading %s: Wallet requires newer version of %s</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation>Error loading block database</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation>Error opening block database</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Failed to listen on any port. Use -listen=0 if you want this.</translation>
+    </message>
+    <message>
+        <source>Failed to rescan the wallet during initialization</source>
+        <translation>Failed to rescan the wallet during initialization</translation>
+    </message>
+    <message>
+        <source>Failed to verify database</source>
+        <translation>Failed to verify database</translation>
+    </message>
+    <message>
+        <source>Ignoring duplicate -wallet %s.</source>
+        <translation>Ignoring duplicate -wallet %s.</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>Importing...</translation>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>Incorrect or no genesis block found. Wrong datadir for network?</translation>
+    </message>
+    <message>
+        <source>Initialization sanity check failed. %s is shutting down.</source>
+        <translation>Initialization sanity check failed. %s is shutting down.</translation>
+    </message>
+    <message>
+        <source>Invalid P2P permission: '%s'</source>
+        <translation>Invalid P2P permission: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
+        <translation>Invalid amount for -%s=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -discardfee=&lt;amount&gt;: '%s'</source>
+        <translation>Invalid amount for -discardfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
+        <translation>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>SQLiteDatabase: Failed to execute statement to verify database: %s</source>
+        <translation>SQLiteDatabase: Failed to execute statement to verify database: %s</translation>
+    </message>
+    <message>
+        <source>SQLiteDatabase: Failed to fetch sqlite wallet schema version: %s</source>
+        <translation>SQLiteDatabase: Failed to fetch sqlite wallet schema version: %s</translation>
+    </message>
+    <message>
+        <source>SQLiteDatabase: Failed to fetch the application id: %s</source>
+        <translation>SQLiteDatabase: Failed to fetch the application id: %s</translation>
+    </message>
+    <message>
+        <source>SQLiteDatabase: Failed to prepare statement to verify database: %s</source>
+        <translation>SQLiteDatabase: Failed to prepare statement to verify database: %s</translation>
+    </message>
+    <message>
+        <source>SQLiteDatabase: Failed to read database verification error: %s</source>
+        <translation>SQLiteDatabase: Failed to read database verification error: %s</translation>
+    </message>
+    <message>
+        <source>SQLiteDatabase: Unexpected application id. Expected %u, got %u</source>
+        <translation>SQLiteDatabase: Unexpected application id. Expected %u, got %u</translation>
+    </message>
+    <message>
+        <source>Specified blocks directory "%s" does not exist.</source>
+        <translation>Specified blocks directory "%s" does not exist.</translation>
+    </message>
+    <message>
+        <source>Unknown address type '%s'</source>
+        <translation>Unknown address type '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown change type '%s'</source>
+        <translation>Unknown change type '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrading txindex database</source>
+        <translation>Upgrading txindex database</translation>
+    </message>
+    <message>
+        <source>Loading P2P addresses...</source>
+        <translation>Loading P2P addresses...</translation>
+    </message>
+    <message>
+        <source>Loading banlist...</source>
+        <translation>Loading banlist...</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>Not enough file descriptors available.</translation>
+    </message>
+    <message>
+        <source>Prune cannot be configured with a negative value.</source>
+        <translation>Prune cannot be configured with a negative value.</translation>
+    </message>
+    <message>
+        <source>Prune mode is incompatible with -txindex.</source>
+        <translation>Prune mode is incompatible with -txindex.</translation>
+    </message>
+    <message>
+        <source>Replaying blocks...</source>
+        <translation>Replaying blocks...</translation>
+    </message>
+    <message>
+        <source>Rewinding blocks...</source>
+        <translation>Rewinding blocks...</translation>
+    </message>
+    <message>
+        <source>The source code is available from %s.</source>
+        <translation>The source code is available from %s.</translation>
+    </message>
+    <message>
+        <source>Transaction fee and change calculation failed</source>
+        <translation>Transaction fee and change calculation failed</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. %s is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. %s is probably already running.</translation>
+    </message>
+    <message>
+        <source>Unable to generate keys</source>
+        <translation>Unable to generate keys</translation>
+    </message>
+    <message>
+        <source>Unsupported logging category %s=%s.</source>
+        <translation>Unsupported logging category %s=%s.</translation>
+    </message>
+    <message>
+        <source>Upgrading UTXO database</source>
+        <translation>Upgrading UTXO database</translation>
+    </message>
+    <message>
+        <source>User Agent comment (%s) contains unsafe characters.</source>
+        <translation>User Agent comment (%s) contains unsafe characters.</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Verifying blocks...</translation>
+    </message>
+    <message>
+        <source>Wallet needed to be rewritten: restart %s to complete</source>
+        <translation>Wallet needed to be rewritten: restart %s to complete</translation>
+    </message>
+    <message>
+        <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
+        <translation>Error: Listening for incoming connections failed (listen returned error %s)</translation>
+    </message>
+    <message>
+        <source>%s corrupt. Try using the wallet tool bitcoin-wallet to salvage or restoring a backup.</source>
+        <translation>%s corrupt. Try using the wallet tool bitcoin-wallet to salvage or restoring a backup.</translation>
+    </message>
+    <message>
+        <source>Cannot upgrade a non HD split wallet without upgrading to support pre split keypool. Please use version 169900 or no version specified.</source>
+        <translation>Cannot upgrade a non HD split wallet without upgrading to support pre split keypool. Please use version 169900 or no version specified.</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to send after the fee has been deducted</source>
+        <translation>The transaction amount is too small to send after the fee has been deducted</translation>
+    </message>
+    <message>
+        <source>This error could occur if this wallet was not shutdown cleanly and was last loaded using a build with a newer version of Berkeley DB. If so, please use the software that last loaded this wallet</source>
+        <translation>This error could occur if this wallet was not shutdown cleanly and was last loaded using a build with a newer version of Berkeley DB. If so, please use the software that last loaded this wallet</translation>
+    </message>
+    <message>
+        <source>This is the maximum transaction fee you pay (in addition to the normal fee) to prioritize partial spend avoidance over regular coin selection.</source>
+        <translation>This is the maximum transaction fee you pay (in addition to the normal fee) to prioritize partial spend avoidance over regular coin selection.</translation>
+    </message>
+    <message>
+        <source>Transaction needs a change address, but we can't generate it. Please call keypoolrefill first.</source>
+        <translation>Transaction needs a change address, but we can't generate it. Please call keypoolrefill first.</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
+        <translation>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</translation>
+    </message>
+    <message>
+        <source>A fatal internal error occurred, see debug.log for details</source>
+        <translation>A fatal internal error occurred, see debug.log for details</translation>
+    </message>
+    <message>
+        <source>Cannot set -peerblockfilters without -blockfilterindex.</source>
+        <translation>Cannot set -peerblockfilters without -blockfilterindex.</translation>
+    </message>
+    <message>
+        <source>Disk space is too low!</source>
+        <translation>Disk space is too low!</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Error reading from database, shutting down.</translation>
+    </message>
+    <message>
+        <source>Error upgrading chainstate database</source>
+        <translation>Error upgrading chainstate database</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low for %s</source>
+        <translation>Error: Disk space is low for %s</translation>
+    </message>
+    <message>
+        <source>Error: Keypool ran out, please call keypoolrefill first</source>
+        <translation>Error: Keypool ran out, please call keypoolrefill first</translation>
+    </message>
+    <message>
+        <source>Fee rate (%s) is lower than the minimum fee rate setting (%s)</source>
+        <translation>Fee rate (%s) is lower than the minimum fee rate setting (%s)</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address or hostname: '%s'</source>
+        <translation>Invalid -onion address or hostname: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address or hostname: '%s'</source>
+        <translation>Invalid -proxy address or hostname: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
+        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</translation>
+    </message>
+    <message>
+        <source>Invalid netmask specified in -whitelist: '%s'</source>
+        <translation>Invalid netmask specified in -whitelist: '%s'</translation>
+    </message>
+    <message>
+        <source>Need to specify a port with -whitebind: '%s'</source>
+        <translation>Need to specify a port with -whitebind: '%s'</translation>
+    </message>
+    <message>
+        <source>No proxy server specified. Use -proxy=&lt;ip&gt; or -proxy=&lt;ip:port&gt;.</source>
+        <translation>No proxy server specified. Use -proxy=&lt;ip&gt; or -proxy=&lt;ip:port&gt;.</translation>
+    </message>
+    <message>
+        <source>Prune mode is incompatible with -blockfilterindex.</source>
+        <translation>Prune mode is incompatible with -blockfilterindex.</translation>
+    </message>
+    <message>
+        <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
+        <translation>Reducing -maxconnections from %d to %d, because of system limitations.</translation>
+    </message>
+    <message>
+        <source>Section [%s] is not recognized.</source>
+        <translation>Section [%s] is not recognized.</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation>Signing transaction failed</translation>
+    </message>
+    <message>
+        <source>Specified -walletdir "%s" does not exist</source>
+        <translation>Specified -walletdir "%s" does not exist</translation>
+    </message>
+    <message>
+        <source>Specified -walletdir "%s" is a relative path</source>
+        <translation>Specified -walletdir "%s" is a relative path</translation>
+    </message>
+    <message>
+        <source>Specified -walletdir "%s" is not a directory</source>
+        <translation>Specified -walletdir "%s" is not a directory</translation>
+    </message>
+    <message>
+        <source>The specified config file %s does not exist
 </source>
-        <translation>%s, vous devez définir un mot de passe rpc dans le fichier de configuration : 
-%s
-Il vous est conseillé d&apos;utiliser le mot de passe aléatoire suivant :
-rpcuser=pepecoinrpc
-rpcpassword=%s
-(vous n&apos;avez pas besoin de retenir ce mot de passe)
-Le nom d&apos;utilisateur et le mot de passe NE DOIVENT PAS être identiques.
-Si le fichier n&apos;existe pas, créez-le avec les droits de lecture accordés au propriétaire.
-Il est aussi conseillé de régler alertnotify pour être prévenu des problèmes ;
-par exemple : alertnotify=echo %%s | mail -s &quot;Pepecoin Alert&quot; admin@foo.com
+        <translation>The specified config file %s does not exist
 </translation>
     </message>
     <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>Une erreur est survenue lors de la mise en place du port RPC %u pour écouter sur IPv6, retour à IPv4 : %s</translation>
+        <source>The transaction amount is too small to pay the fee</source>
+        <translation>The transaction amount is too small to pay the fee</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Se lier à l&apos;adresse donnée et toujours l&apos;écouter. Utilisez la notation [host]:port pour l&apos;IPv6</translation>
+        <source>This is experimental software.</source>
+        <translation>This is experimental software.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Pepecoin is probably already running.</source>
-        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Pepecoin fonctionne probablement déjà.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Erreur : la transaction a été rejetée ! Cela peut arriver si certaines pièces de votre porte-monnaie étaient déjà dépensées, par exemple si vous avez utilisé une copie de wallet.dat et les pièces ont été dépensées avec cette copie sans être marquées comme telles ici.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Erreur : cette transaction nécessite des frais de transaction d&apos;au moins %s en raison de son montant, de sa complexité ou parce que des fonds reçus récemment sont utilisés !</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Exécuter une commande lorsqu&apos;une alerte correspondante est reçue (%s dans la commande sera remplacé par le message)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Exécuter la commande lorsqu&apos;une transaction de porte-monnaie change (%s dans la commande est remplacée par TxID)</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Définir la taille maximale en octets des transactions prioritaires/à frais modiques (par défaut : 27000)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Ceci est une pré-version de test - utilisez à vos risques et périls - ne l&apos;utilisez pas pour miner ou pour des applications marchandes</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Attention : -paytxfee est réglée sur un montant très élevé ! Il s&apos;agit des frais de transaction que vous payerez si vous émettez une transaction.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Avertissement : les transactions affichées pourraient être incorrectes ! Vous ou d&apos;autres nœuds du réseau pourriez avoir besoin d&apos;effectuer une mise à jour.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pepecoin will not work properly.</source>
-        <translation>Attention : veuillez vérifier que l&apos;heure et la date de votre ordinateur sont correctes ! Si votre horloge n&apos;est pas à l&apos;heure, Pepecoin ne fonctionnera pas correctement.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Avertissement : une erreur est survenue lors de la lecture de wallet.dat ! Toutes les clefs ont été lues correctement mais les données de transaction ou les entrées du carnet d&apos;adresses pourraient être incorrectes ou manquantes.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Avertissement : wallet.dat corrompu, données récupérées ! Le fichier wallet.dat original a été enregistré en tant que wallet.{horodatage}.bak dans %s ; si votre solde ou transactions sont incorrects vous devriez effectuer une restauration depuis une sauvegarde.</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Tenter de récupérer les clefs privées d&apos;un wallet.dat corrompu</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Block creation options:</source>
-        <translation>Options de création des blocs :</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Ne se connecter qu&apos;au(x) nœud(s) spécifié(s)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Corrupted block database detected</source>
-        <translation>Base de données des blocs corrompue détectée</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Découvrir sa propre adresse IP (par défaut : 1 lors de l&apos;écoute et si -externalip n&apos;est pas présent)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation>Voulez-vous reconstruire la base de données des blocs maintenant ?</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Error initializing block database</source>
-        <translation>Erreur lors de l&apos;initialisation de la base de données des blocs</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation>Erreur lors de l&apos;initialisation de l&apos;environnement de la base de données du porte-monnaie %s !</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error loading block database</source>
-        <translation>Erreur du chargement de la base de données des blocs</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error opening block database</source>
-        <translation>Erreur lors de l&apos;ouverture de la base de données</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Error: Disk space is low!</source>
-        <translation>Erreur : l&apos;espace disque est faible !</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Erreur : Porte-monnaie verrouillé, impossible de créer la transaction !</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error: system error: </source>
-        <translation>Erreur : erreur système :</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Échec de l&apos;écoute sur un port quelconque. Utilisez -listen=0 si vous voulez cela.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to read block info</source>
-        <translation>La lecture des informations de bloc a échoué</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to read block</source>
-        <translation>La lecture du bloc a échoué</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to sync block index</source>
-        <translation>La synchronisation de l&apos;index des blocs a échoué</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block index</source>
-        <translation>L&apos;&apos;écriture de l&apos;index des blocs a échoué</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block info</source>
-        <translation>L&apos;écriture des informations du bloc a échoué</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block</source>
-        <translation>L&apos;écriture du bloc a échoué</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write file info</source>
-        <translation>L&apos;écriture des informations de fichier a échoué</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write to coin database</source>
-        <translation>L&apos;écriture dans la base de données des pièces a échoué</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write transaction index</source>
-        <translation>L&apos;écriture de l&apos;index des transactions a échoué</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write undo data</source>
-        <translation>L&apos;écriture des données d&apos;annulation a échoué</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>Trouver des pairs en utilisant la recherche DNS (par défaut : 1 sauf si -connect est utilisé)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation>Générer des pièces (défaut: 0)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation>Nombre de blocs à vérifier au démarrage (par défaut : 288, 0 = tout)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation>Niveau d&apos;approfondissement de la vérification des blocs (0-4, par défaut : 3)</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Not enough file descriptors available.</source>
-        <translation>Pas assez de descripteurs de fichiers disponibles.</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Reconstruire l&apos;index de la chaîne des blocs à partir des fichiers blk000??.dat actuels</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>Définir le nombre d&apos;exétrons pour desservir les appels RPC (par défaut : 4)</translation>
-    </message>
-    <message>
-        <location line="+26"/>
-        <source>Verifying blocks...</source>
-        <translation>Vérification des blocs...</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Verifying wallet...</source>
-        <translation>Vérification du porte-monnaie...</translation>
-    </message>
-    <message>
-        <location line="-69"/>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Importe des blocs depuis un fichier blk000??.dat externe</translation>
-    </message>
-    <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation>Définir le nombre de fils d’exécution pour la vérification des scripts (maximum 16, 0 = auto, &lt; 0 = laisser ce nombre de cœurs libres, par défaut : 0)</translation>
-    </message>
-    <message>
-        <location line="+77"/>
-        <source>Information</source>
-        <translation>Informations</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Adresse -tor invalide : « %s »</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Montant invalide pour -minrelayfee=&lt;montant&gt; : « %s »</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Montant invalide pour -mintxfee=&lt;montant&gt; : « %s »</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation>Maintenir un index complet des transactions (par défaut : 0)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>Tampon maximal de réception par -connection, &lt;n&gt;*1000 octets (par défaut : 5000)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Tampon maximal d&apos;envoi par connexion, &lt;n&gt;*1000 octets (par défaut : 1000)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>N&apos;accepter que la chaîne de blocs correspondant aux points de vérification internes (par défaut : 1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Se connecter uniquement aux nœuds du réseau &lt;net&gt; (IPv4, IPv6 ou Tor)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>Afficher des information de débogage supplémentaires. Cela signifie toutes les autres options -debug*</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation>Afficher des informations de débogage réseau supplémentaires</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>Faire précéder les données de débogage par un horodatage</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>SSL options: (see the Pepecoin Wiki for SSL setup instructions)</source>
-        <translation>Options SSL : (cf. le wiki de Pepecoin pour les instructions de configuration du SSL)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>Sélectionner la version du proxy socks à utiliser (4-5, 5 étant la valeur par défaut)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Envoyer les informations de débogage/trace à la console au lieu du fichier debug.log</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation>Envoyer les informations de débogage/trace au débogueur</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>Définir la taille maximale des blocs en octets (par défaut : 250000)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Définir la taille minimale des blocs en octets (par défaut : 0)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Réduire le fichier debug.log lors du démarrage du client (par défaut : 1 lorsque -debug n&apos;est pas présent)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Signing transaction failed</source>
-        <translation>La signature de la transaction a échoué</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Spécifier le délai d&apos;expiration de la connexion en millisecondes (par défaut : 5000)</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>System error: </source>
-        <translation>Erreur système :</translation>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>Transaction amount too small</source>
-        <translation>Montant de la transaction trop bas</translation>
+        <translation>Transaction amount too small</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Transaction amounts must be positive</source>
-        <translation>Les montants de la transaction doivent être positifs</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Transaction too large</source>
-        <translation>Transaction trop volumineuse</translation>
+        <translation>Transaction too large</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Utiliser l&apos;UPnP pour rediriger le port d&apos;écoute (par défaut : 0)</translation>
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>Unable to bind to %s on this computer (bind returned error %s)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Utiliser l&apos;UPnP pour rediriger le port d&apos;écoute (par défaut : 1 lors de l&apos;écoute)</translation>
+        <source>Unable to create the PID file '%s': %s</source>
+        <translation>Unable to create the PID file '%s': %s</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>Utiliser un proxy pour atteindre les services cachés de Tor (par défaut : même valeur que -proxy)</translation>
+        <source>Unable to generate initial keys</source>
+        <translation>Unable to generate initial keys</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Username for JSON-RPC connections</source>
-        <translation>Nom d&apos;utilisateur pour les connexions JSON-RPC</translation>
+        <source>Unknown -blockfilterindex value %s.</source>
+        <translation>Unknown -blockfilterindex value %s.</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Warning</source>
-        <translation>Avertissement</translation>
+        <source>Verifying wallet(s)...</source>
+        <translation>Verifying wallet(s)...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Avertissement : cette version est obsolète, une mise à jour est nécessaire !</translation>
+        <source>Warning: unknown new rules activated (versionbit %i)</source>
+        <translation>Warning: unknown new rules activated (versionbit %i)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation>Vous devez reconstruire les bases de données avec -reindex pour modifier -txindex</translation>
+        <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat corrompu, la récupération a échoué</translation>
+        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
+        <translation>This is the transaction fee you may pay when fee estimates are not available.</translation>
     </message>
     <message>
-        <location line="-50"/>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Mot de passe pour les connexions JSON-RPC</translation>
+        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
+        <translation>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</translation>
     </message>
     <message>
-        <location line="-67"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Autoriser les connexions JSON-RPC depuis l&apos;adresse IP spécifiée</translation>
+        <source>%s is set very high!</source>
+        <translation>%s is set very high!</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Envoyer des commandes au nœud fonctionnant à &lt;ip&gt; (par défaut : 127.0.0.1)</translation>
+        <source>Starting network threads...</source>
+        <translation>Starting network threads...</translation>
     </message>
     <message>
-        <location line="-120"/>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Exécuter la commande lorsque le meilleur bloc change (%s est remplacé par le hachage du bloc dans cmd)</translation>
+        <source>The wallet will avoid paying less than the minimum relay fee.</source>
+        <translation>The wallet will avoid paying less than the minimum relay fee.</translation>
     </message>
     <message>
-        <location line="+147"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Mettre à jour le format du porte-monnaie</translation>
+        <source>This is the minimum transaction fee you pay on every transaction.</source>
+        <translation>This is the minimum transaction fee you pay on every transaction.</translation>
     </message>
     <message>
-        <location line="-21"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Régler la taille de la plage de clefs sur &lt;n&gt; (par défaut : 100)</translation>
+        <source>This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <location line="-12"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Réanalyser la chaîne de blocs pour les transactions de porte-monnaie manquantes</translation>
+        <source>Transaction amounts must not be negative</source>
+        <translation>Transaction amounts must not be negative</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Utiliser OpenSSL (https) pour les connexions JSON-RPC</translation>
+        <source>Transaction has too long of a mempool chain</source>
+        <translation>Transaction has too long of a mempool chain</translation>
     </message>
     <message>
-        <location line="-26"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Fichier de certificat serveur (par défaut : server.cert)</translation>
+        <source>Transaction must have at least one recipient</source>
+        <translation>Transaction must have at least one recipient</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Clef privée du serveur (par défaut : server.pem)</translation>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Unknown network specified in -onlynet: '%s'</translation>
     </message>
     <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Clefs de chiffrement acceptables (par défaut : TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
-    </message>
-    <message>
-        <location line="+165"/>
-        <source>This help message</source>
-        <translation>Ce message d&apos;aide</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur (bind a retourné l&apos;erreur %d, %s)</translation>
-    </message>
-    <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation>Connexion via un proxy socks</translation>
-    </message>
-    <message>
-        <location line="-10"/>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Autoriser les recherches DNS pour -addnode, -seednode et -connect</translation>
-    </message>
-    <message>
-        <location line="+55"/>
-        <source>Loading addresses...</source>
-        <translation>Chargement des adresses…</translation>
-    </message>
-    <message>
-        <location line="-35"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Erreur lors du chargement de wallet.dat : porte-monnaie corrompu</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pepecoin</source>
-        <translation>Erreur lors du chargement de wallet.dat : le porte-monnaie nécessite une version plus récente de Pepecoin</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Pepecoin to complete</source>
-        <translation>Le porte-monnaie nécessitait une réécriture : veuillez redémarrer Pepecoin pour terminer l&apos;opération</translation>
-    </message>
-    <message>
-        <location line="-95"/>
-        <source>Error loading wallet.dat</source>
-        <translation>Erreur lors du chargement de wallet.dat</translation>
-    </message>
-    <message>
-        <location line="+28"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Adresse -proxy invalide : « %s »</translation>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Réseau inconnu spécifié sur -onlynet : « %s »</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation>Version inconnue de proxy -socks demandée : %i</translation>
-    </message>
-    <message>
-        <location line="-96"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Impossible de résoudre l&apos;adresse -bind : « %s »</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Impossible de résoudre l&apos;adresse -externalip : « %s »</translation>
-    </message>
-    <message>
-        <location line="+44"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Montant invalide pour -paytxfee=&lt;montant&gt; : « %s »</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount</source>
-        <translation>Montant invalide</translation>
-    </message>
-    <message>
-        <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>Fonds insuffisants</translation>
+        <translation>Insufficient funds</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>Fee estimation failed. Fallbackfee is disabled. Wait a few blocks or enable -fallbackfee.</source>
+        <translation>Fee estimation failed. Fallbackfee is disabled. Wait a few blocks or enable -fallbackfee.</translation>
+    </message>
+    <message>
+        <source>Warning: Private keys detected in wallet {%s} with disabled private keys</source>
+        <translation>Warning: Private keys detected in wallet {%s} with disabled private keys</translation>
+    </message>
+    <message>
+        <source>Cannot write to data directory '%s'; check permissions.</source>
+        <translation>Cannot write to data directory '%s'; check permissions.</translation>
+    </message>
+    <message>
         <source>Loading block index...</source>
-        <translation>Chargement de l’index des blocs…</translation>
+        <translation>Loading block index...</translation>
     </message>
     <message>
-        <location line="-57"/>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Ajouter un nœud auquel se connecter et tenter de garder la connexion ouverte</translation>
-    </message>
-    <message>
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Pepecoin is probably already running.</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur. Pepecoin fonctionne probablement déjà.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Frais par Ko à ajouter aux transactions que vous enverrez</translation>
-    </message>
-    <message>
-        <location line="+19"/>
         <source>Loading wallet...</source>
-        <translation>Chargement du porte-monnaie…</translation>
+        <translation>Loading wallet...</translation>
     </message>
     <message>
-        <location line="-52"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Impossible de revenir à une version antérieure du porte-monnaie</translation>
+        <translation>Cannot downgrade wallet</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Cannot write default address</source>
-        <translation>Impossible d&apos;écrire l&apos;adresse par défaut</translation>
-    </message>
-    <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
-        <translation>Nouvelle analyse…</translation>
+        <translation>Rescanning...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
-        <translation>Chargement terminé</translation>
-    </message>
-    <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation>Pour utiliser l&apos;option %s</translation>
-    </message>
-    <message>
-        <location line="-74"/>
-        <source>Error</source>
-        <translation>Erreur</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Vous devez ajouter la ligne rpcpassword=&lt;mot-de-passe&gt; au fichier de configuration :
-%s
-Si le fichier n&apos;existe pas, créez-le avec les droits de lecture seule accordés au propriétaire.</translation>
+        <translation>Done loading</translation>
     </message>
 </context>
 </TS>
