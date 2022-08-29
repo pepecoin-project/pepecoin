@@ -3,7 +3,7 @@ Pepecoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/pepecoin-project/pepecoin.svg?branch=master)](https://travis-ci.org/pepecoin-project/pepecoin)
 
-https://pepecoin.army
+https://pepecoin.org
 
 What is Pepecoin?
 ----------------
@@ -15,7 +15,7 @@ out collectively by the network. Pepecoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Pepecoin Core software, see [https://pepecoin.army](https://pepecoin.army).
+the Pepecoin Core software, see [https://pepecoin.org](https://pepecoin.org).
 
 License
 -------
